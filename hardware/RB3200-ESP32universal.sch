@@ -19938,13 +19938,14 @@ DIN A3, landscape with location and doc. field</description>
 <sheets>
 <sheet>
 <plain>
-<text x="289.56" y="5.08" size="2.54" layer="97">ESP32 universal board
-Robotarna
-github:roboticsbrno/
+<text x="289.306" y="4.572" size="2.1844" layer="97" font="vector">github:roboticsbrno/
 RB3200-ESP32universal
+
+RobotikaBrno.cz
+Robotarna
 CC BY-SA 4.0</text>
-<text x="344.17" y="20.32" size="2.54" layer="97" ratio="14">RobotikaBrno.cz</text>
-<text x="375.92" y="5.08" size="2.54" layer="97" ratio="14">v1.0</text>
+<text x="344.17" y="20.32" size="2.54" layer="97" font="vector" ratio="14">RobotikaBrno</text>
+<text x="374.65" y="5.08" size="2.54" layer="97" font="vector" ratio="14">v1.0</text>
 <rectangle x1="338.570040625" y1="18.3900375" x2="338.783396875" y2="18.4002" layer="102"/>
 <rectangle x1="338.4278" y1="18.4002" x2="338.9256375" y2="18.41035625" layer="102"/>
 <rectangle x1="338.34651875" y1="18.410359375" x2="339.00691875" y2="18.420515625" layer="102"/>
@@ -21322,6 +21323,15 @@ CC BY-SA 4.0</text>
 <rectangle x1="338.163640625" y1="23.155078125" x2="339.189796875" y2="23.165234375" layer="102"/>
 <rectangle x1="338.214440625" y1="23.1652375" x2="339.138996875" y2="23.1754" layer="102"/>
 <rectangle x1="338.2754" y1="23.1754" x2="339.0882" y2="23.18555625" layer="102"/>
+<text x="180.34" y="20.32" size="1.778" layer="97" font="vector" align="center">Released under the Creative Commons Attribution-ShareAlike 4.0 License
+https://creativecommons.org/licenses/by-sa/4.0/
+Designed by: JM &amp; JP &amp; JS &amp; JV &amp; RobotikaBrno
+
+RB3200-ESP32universal
+https://github.com/RoboticsBrno/RB3200-ESP32universal
+
+RobotikaBrno.cz
+Robotarna</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="83.82" y="127"/>
