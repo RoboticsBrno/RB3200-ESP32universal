@@ -122,7 +122,7 @@
 <circle x="71.12" y="41.91" radius="2.54" width="0.3" layer="42"/>
 <circle x="2.54" y="41.91" radius="2.54" width="0.3" layer="41"/>
 <circle x="71.12" y="41.91" radius="2.54" width="0.3" layer="41"/>
-<text x="26.035" y="1.905" size="1.4224" layer="102" font="vector" ratio="20" rot="R90">ESP32 universal v1.0</text>
+<text x="26.035" y="1.27" size="1.2" layer="102" font="vector" ratio="20" rot="R90">RB3200-ESP32universal v1.0</text>
 <text x="15.4305" y="32.3215" size="1.4" layer="102" font="vector" ratio="20">I2</text>
 <text x="15.4305" y="29.7815" size="1.4" layer="102" font="vector" ratio="20">I0</text>
 <text x="15.4305" y="27.2415" size="1.4" layer="102" font="vector" ratio="20">I4</text>
@@ -179,7 +179,7 @@ RB3200-ESP32universal</text>
 <text x="30.607" y="41.91" size="1.2" layer="102" font="vector" ratio="20" rot="R270">CBS3</text>
 <text x="28.702" y="41.91" size="1.2" layer="102" font="vector" ratio="20" rot="R270">CBS2</text>
 <text x="26.924" y="41.91" size="1.2" layer="102" font="vector" ratio="20" rot="R270">CBS4</text>
-<wire x1="-0.635" y1="0.635" x2="73.025" y2="0.635" width="0" layer="103"/>
+<wire x1="0" y1="0.635" x2="73.66" y2="0.635" width="0" layer="103"/>
 <text x="0.508" y="38.608" size="1.6764" layer="102" font="vector" ratio="16" rot="R270">5
 3
 G
@@ -2951,6 +2951,15 @@ G
 <rectangle x1="26.5448" y1="13.1424" x2="27.3576" y2="13.15255625" layer="16" rot="R180"/>
 <text x="31.75" y="13.97" size="1.27" layer="16" font="vector" ratio="16" rot="MR180" align="center">Robotika
 Brno</text>
+<text x="36.83" y="-18.415" size="1.778" layer="48" font="vector" align="center">Released under the Creative Commons Attribution-ShareAlike 4.0 License
+https://creativecommons.org/licenses/by-sa/4.0/
+Designed by: JM &amp; JP &amp; JS &amp; JV &amp; RobotikaBrno
+
+RB3200-ESP32universal
+https://github.com/RoboticsBrno/RB3200-ESP32universal
+
+RobotikaBrno.cz
+Robotarna</text>
 </plain>
 <libraries>
 <library name="rcl_upravena">
