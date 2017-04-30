@@ -6226,70 +6226,81 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 </library>
 <library name="pinhead_smd">
 <packages>
-<package name="PINH2X06SMD">
-<wire x1="-5.08" y1="0" x2="-7.62" y2="0" width="0.1524" layer="101"/>
-<wire x1="-7.62" y1="0" x2="-7.62" y2="2.54" width="0.1524" layer="101"/>
-<wire x1="-7.62" y1="2.54" x2="-5.08" y2="2.54" width="0.1524" layer="101"/>
-<wire x1="-6.35" y1="8.89" x2="-6.35" y2="3.175" width="0.762" layer="101"/>
-<wire x1="-2.54" y1="0" x2="-5.08" y2="0" width="0.1524" layer="101"/>
-<wire x1="-5.08" y1="0" x2="-5.08" y2="2.54" width="0.1524" layer="101"/>
-<wire x1="-5.08" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="101"/>
-<wire x1="-3.81" y1="8.89" x2="-3.81" y2="3.175" width="0.762" layer="101"/>
-<wire x1="0" y1="0" x2="-2.54" y2="0" width="0.1524" layer="101"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="2.54" width="0.1524" layer="101"/>
-<wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="101"/>
-<wire x1="-1.27" y1="8.89" x2="-1.27" y2="3.175" width="0.762" layer="101"/>
-<smd name="T2" x="-3.81" y="-2" dx="1.6" dy="3" layer="1" roundness="20"/>
-<smd name="T3" x="-1.27" y="-2" dx="1.6" dy="3" layer="1" roundness="20"/>
-<smd name="T1" x="-6.35" y="-2" dx="1.6" dy="3" layer="1" roundness="20"/>
-<smd name="B1" x="-6.35" y="-2" dx="1.6" dy="3" layer="16" roundness="20" rot="R180"/>
-<smd name="B2" x="-3.81" y="-2" dx="1.6" dy="3" layer="16" roundness="20" rot="R180"/>
-<smd name="B3" x="-1.27" y="-2" dx="1.6" dy="3" layer="16" roundness="20" rot="R180"/>
-<rectangle x1="-4.191" y1="2.54" x2="-3.429" y2="3.048" layer="101"/>
-<rectangle x1="-4.191" y1="-1.016" x2="-3.429" y2="0" layer="101"/>
-<rectangle x1="-1.651" y1="2.54" x2="-0.889" y2="3.048" layer="101"/>
-<rectangle x1="-1.651" y1="-1.016" x2="-0.889" y2="0" layer="101"/>
-<rectangle x1="-6.731" y1="2.54" x2="-5.969" y2="3.048" layer="101"/>
-<rectangle x1="-6.731" y1="-1.016" x2="-5.969" y2="0" layer="101"/>
-<rectangle x1="-6.731" y1="2.54" x2="-5.969" y2="3.048" layer="101" rot="R180"/>
-<rectangle x1="-6.731" y1="-1.016" x2="-5.969" y2="0" layer="101" rot="R180"/>
-<rectangle x1="-4.191" y1="2.54" x2="-3.429" y2="3.048" layer="101" rot="R180"/>
-<rectangle x1="-4.191" y1="-1.016" x2="-3.429" y2="0" layer="101" rot="R180"/>
-<rectangle x1="-1.651" y1="2.54" x2="-0.889" y2="3.048" layer="101" rot="R180"/>
-<rectangle x1="-1.651" y1="-1.016" x2="-0.889" y2="0" layer="101" rot="R180"/>
-<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="101"/>
-<wire x1="0" y1="0" x2="0" y2="2.54" width="0.1524" layer="101"/>
-<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="101"/>
-<wire x1="1.27" y1="8.89" x2="1.27" y2="3.175" width="0.762" layer="101"/>
-<wire x1="5.08" y1="0" x2="2.54" y2="0" width="0.1524" layer="101"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.1524" layer="101"/>
-<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="101"/>
-<wire x1="3.81" y1="8.89" x2="3.81" y2="3.175" width="0.762" layer="101"/>
-<wire x1="7.62" y1="0" x2="5.08" y2="0" width="0.1524" layer="101"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.1524" layer="101"/>
-<wire x1="5.08" y1="2.54" x2="7.62" y2="2.54" width="0.1524" layer="101"/>
-<wire x1="7.62" y1="2.54" x2="7.62" y2="0" width="0.1524" layer="101"/>
-<wire x1="6.35" y1="8.89" x2="6.35" y2="3.175" width="0.762" layer="101"/>
-<smd name="T5" x="3.81" y="-2" dx="1.6" dy="3" layer="1" roundness="20"/>
-<smd name="T6" x="6.35" y="-2" dx="1.6" dy="3" layer="1" roundness="20"/>
-<smd name="T4" x="1.27" y="-2" dx="1.6" dy="3" layer="1" roundness="20"/>
-<smd name="B4" x="1.27" y="-2" dx="1.6" dy="3" layer="16" roundness="20" rot="R180"/>
-<smd name="B5" x="3.81" y="-2" dx="1.6" dy="3" layer="16" roundness="20" rot="R180"/>
-<smd name="B6" x="6.35" y="-2" dx="1.6" dy="3" layer="16" roundness="20" rot="R180"/>
-<rectangle x1="3.429" y1="2.54" x2="4.191" y2="3.048" layer="101"/>
-<rectangle x1="3.429" y1="-1.016" x2="4.191" y2="0" layer="101"/>
-<rectangle x1="5.969" y1="2.54" x2="6.731" y2="3.048" layer="101"/>
-<rectangle x1="5.969" y1="-1.016" x2="6.731" y2="0" layer="101"/>
-<rectangle x1="0.889" y1="2.54" x2="1.651" y2="3.048" layer="101"/>
-<rectangle x1="0.889" y1="-1.016" x2="1.651" y2="0" layer="101"/>
-<rectangle x1="0.889" y1="2.54" x2="1.651" y2="3.048" layer="101" rot="R180"/>
-<rectangle x1="0.889" y1="-1.016" x2="1.651" y2="0" layer="101" rot="R180"/>
-<rectangle x1="3.429" y1="2.54" x2="4.191" y2="3.048" layer="101" rot="R180"/>
-<rectangle x1="3.429" y1="-1.016" x2="4.191" y2="0" layer="101" rot="R180"/>
-<rectangle x1="5.969" y1="2.54" x2="6.731" y2="3.048" layer="101" rot="R180"/>
-<rectangle x1="5.969" y1="-1.016" x2="6.731" y2="0" layer="101" rot="R180"/>
-<text x="-6.985" y="2.8575" size="1" layer="25" font="vector" ratio="16" rot="R90">&gt;NAME</text>
-<text x="7.9375" y="2.8575" size="1" layer="27" font="vector" ratio="16" rot="R90">&gt;VALUE</text>
+<package name="PINH2X05SMD">
+<wire x1="-6.35" y1="0" x2="-3.81" y2="0" width="0.1524" layer="100"/>
+<wire x1="-3.81" y1="2.54" x2="-6.35" y2="2.54" width="0.1524" layer="100"/>
+<wire x1="-6.35" y1="2.54" x2="-6.35" y2="0" width="0.1524" layer="100"/>
+<wire x1="-5.08" y1="8.89" x2="-5.08" y2="3.175" width="0.762" layer="100"/>
+<smd name="T1" x="-5.08" y="-2" dx="1.6" dy="3" layer="1" roundness="20"/>
+<rectangle x1="-5.461" y1="2.54" x2="-4.699" y2="3.048" layer="100"/>
+<rectangle x1="-5.461" y1="-1.016" x2="-4.699" y2="0" layer="100"/>
+<wire x1="-3.81" y1="0" x2="-6.35" y2="0" width="0.1524" layer="101"/>
+<wire x1="-6.35" y1="0" x2="-6.35" y2="2.54" width="0.1524" layer="101"/>
+<wire x1="-6.35" y1="2.54" x2="-3.81" y2="2.54" width="0.1524" layer="101"/>
+<wire x1="-5.08" y1="8.89" x2="-5.08" y2="3.175" width="0.762" layer="101"/>
+<smd name="B1" x="-5.08" y="-2" dx="1.6" dy="3" layer="16" roundness="20" rot="R180"/>
+<rectangle x1="-5.461" y1="2.54" x2="-4.699" y2="3.048" layer="101" rot="R180"/>
+<rectangle x1="-5.461" y1="-1.016" x2="-4.699" y2="0" layer="101" rot="R180"/>
+<wire x1="-3.81" y1="0" x2="-1.27" y2="0" width="0.1524" layer="100"/>
+<wire x1="-1.27" y1="2.54" x2="-3.81" y2="2.54" width="0.1524" layer="100"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="0" width="0.1524" layer="100"/>
+<wire x1="-2.54" y1="8.89" x2="-2.54" y2="3.175" width="0.762" layer="100"/>
+<smd name="T2" x="-2.54" y="-2" dx="1.6" dy="3" layer="1" roundness="20"/>
+<rectangle x1="-2.921" y1="2.54" x2="-2.159" y2="3.048" layer="100"/>
+<rectangle x1="-2.921" y1="-1.016" x2="-2.159" y2="0" layer="100"/>
+<wire x1="-1.27" y1="0" x2="-3.81" y2="0" width="0.1524" layer="101"/>
+<wire x1="-3.81" y1="0" x2="-3.81" y2="2.54" width="0.1524" layer="101"/>
+<wire x1="-3.81" y1="2.54" x2="-1.27" y2="2.54" width="0.1524" layer="101"/>
+<wire x1="-2.54" y1="8.89" x2="-2.54" y2="3.175" width="0.762" layer="101"/>
+<smd name="B2" x="-2.54" y="-2" dx="1.6" dy="3" layer="16" roundness="20" rot="R180"/>
+<rectangle x1="-2.921" y1="2.54" x2="-2.159" y2="3.048" layer="101" rot="R180"/>
+<rectangle x1="-2.921" y1="-1.016" x2="-2.159" y2="0" layer="101" rot="R180"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.1524" layer="100"/>
+<wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.1524" layer="100"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="0" width="0.1524" layer="100"/>
+<wire x1="0" y1="8.89" x2="0" y2="3.175" width="0.762" layer="100"/>
+<smd name="T3" x="0" y="-2" dx="1.6" dy="3" layer="1" roundness="20"/>
+<rectangle x1="-0.381" y1="2.54" x2="0.381" y2="3.048" layer="100"/>
+<rectangle x1="-0.381" y1="-1.016" x2="0.381" y2="0" layer="100"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.1524" layer="101"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="2.54" width="0.1524" layer="101"/>
+<wire x1="-1.27" y1="2.54" x2="1.27" y2="2.54" width="0.1524" layer="101"/>
+<wire x1="0" y1="8.89" x2="0" y2="3.175" width="0.762" layer="101"/>
+<smd name="B3" x="0" y="-2" dx="1.6" dy="3" layer="16" roundness="20" rot="R180"/>
+<rectangle x1="-0.381" y1="2.54" x2="0.381" y2="3.048" layer="101" rot="R180"/>
+<rectangle x1="-0.381" y1="-1.016" x2="0.381" y2="0" layer="101" rot="R180"/>
+<wire x1="1.27" y1="0" x2="3.81" y2="0" width="0.1524" layer="100"/>
+<wire x1="3.81" y1="2.54" x2="1.27" y2="2.54" width="0.1524" layer="100"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="0" width="0.1524" layer="100"/>
+<wire x1="2.54" y1="8.89" x2="2.54" y2="3.175" width="0.762" layer="100"/>
+<smd name="T4" x="2.54" y="-2" dx="1.6" dy="3" layer="1" roundness="20"/>
+<rectangle x1="2.159" y1="2.54" x2="2.921" y2="3.048" layer="100"/>
+<rectangle x1="2.159" y1="-1.016" x2="2.921" y2="0" layer="100"/>
+<wire x1="3.81" y1="0" x2="1.27" y2="0" width="0.1524" layer="101"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="2.54" width="0.1524" layer="101"/>
+<wire x1="1.27" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="101"/>
+<wire x1="2.54" y1="8.89" x2="2.54" y2="3.175" width="0.762" layer="101"/>
+<smd name="B4" x="2.54" y="-2" dx="1.6" dy="3" layer="16" roundness="20" rot="R180"/>
+<rectangle x1="2.159" y1="2.54" x2="2.921" y2="3.048" layer="101" rot="R180"/>
+<rectangle x1="2.159" y1="-1.016" x2="2.921" y2="0" layer="101" rot="R180"/>
+<wire x1="3.81" y1="0" x2="6.35" y2="0" width="0.1524" layer="100"/>
+<wire x1="6.35" y1="0" x2="6.35" y2="2.54" width="0.1524" layer="100"/>
+<wire x1="6.35" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="100"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="0" width="0.1524" layer="100"/>
+<wire x1="5.08" y1="8.89" x2="5.08" y2="3.175" width="0.762" layer="100"/>
+<smd name="T5" x="5.08" y="-2" dx="1.6" dy="3" layer="1" roundness="20"/>
+<rectangle x1="4.699" y1="2.54" x2="5.461" y2="3.048" layer="100"/>
+<rectangle x1="4.699" y1="-1.016" x2="5.461" y2="0" layer="100"/>
+<wire x1="6.35" y1="0" x2="3.81" y2="0" width="0.1524" layer="101"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="2.54" width="0.1524" layer="101"/>
+<wire x1="3.81" y1="2.54" x2="6.35" y2="2.54" width="0.1524" layer="101"/>
+<wire x1="6.35" y1="2.54" x2="6.35" y2="0" width="0.1524" layer="101"/>
+<wire x1="5.08" y1="8.89" x2="5.08" y2="3.175" width="0.762" layer="101"/>
+<smd name="B5" x="5.08" y="-2" dx="1.6" dy="3" layer="16" roundness="20" rot="R180"/>
+<rectangle x1="4.699" y1="2.54" x2="5.461" y2="3.048" layer="101" rot="R180"/>
+<rectangle x1="4.699" y1="-1.016" x2="5.461" y2="0" layer="101" rot="R180"/>
+<text x="-5.715" y="2.8575" size="1" layer="25" font="vector" ratio="16" rot="R90">&gt;NAME</text>
+<text x="6.6675" y="2.8575" size="1" layer="27" font="vector" ratio="16" rot="R90">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -6301,36 +6312,32 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PINH2X06" prefix="JP">
+<deviceset name="PINH2X05" prefix="JP">
 <gates>
-<gate name="T1" symbol="PINH1X01" x="-2.54" y="13.97"/>
-<gate name="B1" symbol="PINH1X01" x="-2.54" y="11.43"/>
-<gate name="T2" symbol="PINH1X01" x="-2.54" y="8.89"/>
-<gate name="B2" symbol="PINH1X01" x="-2.54" y="6.35"/>
-<gate name="T3" symbol="PINH1X01" x="-2.54" y="3.81"/>
-<gate name="B3" symbol="PINH1X01" x="-2.54" y="1.27"/>
-<gate name="T4" symbol="PINH1X01" x="-2.54" y="-1.27"/>
-<gate name="B4" symbol="PINH1X01" x="-2.54" y="-3.81"/>
-<gate name="B5" symbol="PINH1X01" x="-2.54" y="-8.89"/>
-<gate name="T5" symbol="PINH1X01" x="-2.54" y="-6.35"/>
-<gate name="T6" symbol="PINH1X01" x="-2.54" y="-11.43"/>
-<gate name="B6" symbol="PINH1X01" x="-2.54" y="-13.97"/>
+<gate name="T1" symbol="PINH1X01" x="-2.54" y="11.43"/>
+<gate name="T2" symbol="PINH1X01" x="-2.54" y="6.35"/>
+<gate name="T3" symbol="PINH1X01" x="-2.54" y="1.27"/>
+<gate name="T4" symbol="PINH1X01" x="-2.54" y="-3.81"/>
+<gate name="T5" symbol="PINH1X01" x="-2.54" y="-8.89"/>
+<gate name="B1" symbol="PINH1X01" x="-2.54" y="8.89"/>
+<gate name="B2" symbol="PINH1X01" x="-2.54" y="3.81"/>
+<gate name="B3" symbol="PINH1X01" x="-2.54" y="-1.27"/>
+<gate name="B4" symbol="PINH1X01" x="-2.54" y="-6.35"/>
+<gate name="B5" symbol="PINH1X01" x="-2.54" y="-11.43"/>
 </gates>
 <devices>
-<device name="" package="PINH2X06SMD">
+<device name="" package="PINH2X05SMD">
 <connects>
 <connect gate="B1" pin="1" pad="B1"/>
 <connect gate="B2" pin="1" pad="B2"/>
 <connect gate="B3" pin="1" pad="B3"/>
 <connect gate="B4" pin="1" pad="B4"/>
 <connect gate="B5" pin="1" pad="B5"/>
-<connect gate="B6" pin="1" pad="B6"/>
 <connect gate="T1" pin="1" pad="T1"/>
 <connect gate="T2" pin="1" pad="T2"/>
 <connect gate="T3" pin="1" pad="T3"/>
 <connect gate="T4" pin="1" pad="T4"/>
 <connect gate="T5" pin="1" pad="T5"/>
-<connect gate="T6" pin="1" pad="T6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6357,7 +6364,6 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <part name="R1" library="rcl_upravena" deviceset="R-EU_" device="R0603S" value="10k"/>
 <part name="C1" library="rcl_upravena" deviceset="C-EU" device="C0603S" value="100n/16V"/>
 <part name="Q1" library="transistors" deviceset="N-MOSFET" device="-SOT23-DIST" value="BS170"/>
-<part name="JP1" library="pinhead_smd" deviceset="PINH2X06" device=""/>
 <part name="C2" library="rcl_upravena" deviceset="C-EU" device="C0603S" value="100n/16V"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -6367,7 +6373,6 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
-<part name="JP3" library="pinhead_smd" deviceset="PINH2X06" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
@@ -6395,6 +6400,8 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <part name="R6" library="rcl_upravena" deviceset="R-EU_" device="R1206S" value="0R"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
+<part name="JP2" library="pinhead_smd" deviceset="PINH2X05" device=""/>
+<part name="JP4" library="pinhead_smd" deviceset="PINH2X05" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6408,18 +6415,6 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <instance part="R1" gate="G$1" x="157.48" y="139.7"/>
 <instance part="C1" gate="G$1" x="86.36" y="134.62" rot="R180"/>
 <instance part="Q1" gate="G$1" x="152.4" y="129.54" rot="R180"/>
-<instance part="JP1" gate="T1" x="149.86" y="111.76" rot="R90"/>
-<instance part="JP1" gate="B1" x="149.86" y="30.48" rot="R90"/>
-<instance part="JP1" gate="T2" x="147.32" y="111.76" rot="R90"/>
-<instance part="JP1" gate="B2" x="147.32" y="30.48" rot="R90"/>
-<instance part="JP1" gate="T3" x="144.78" y="111.76" rot="R90"/>
-<instance part="JP1" gate="B3" x="144.78" y="30.48" rot="R90"/>
-<instance part="JP1" gate="T4" x="134.62" y="111.76" rot="R90"/>
-<instance part="JP1" gate="B4" x="134.62" y="30.48" rot="R90"/>
-<instance part="JP1" gate="B5" x="127" y="30.48" rot="R90"/>
-<instance part="JP1" gate="T5" x="127" y="111.76" rot="R90"/>
-<instance part="JP1" gate="T6" x="119.38" y="111.76" rot="R90"/>
-<instance part="JP1" gate="B6" x="119.38" y="30.48" rot="R90"/>
 <instance part="C2" gate="G$1" x="101.6" y="134.62" rot="R180"/>
 <instance part="GND2" gate="1" x="101.6" y="124.46"/>
 <instance part="GND3" gate="1" x="86.36" y="124.46"/>
@@ -6429,21 +6424,9 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <instance part="+3V3" gate="G$1" x="170.18" y="119.38" rot="R270"/>
 <instance part="+3V4" gate="G$1" x="170.18" y="132.08" rot="R270"/>
 <instance part="P+3" gate="1" x="170.18" y="139.7" rot="R270"/>
-<instance part="JP3" gate="T1" x="119.38" y="152.4" rot="MR270"/>
-<instance part="JP3" gate="T2" x="127" y="152.4" rot="MR270"/>
-<instance part="JP3" gate="T3" x="134.62" y="152.4" rot="MR270"/>
-<instance part="JP3" gate="T4" x="144.78" y="152.4" rot="MR270"/>
-<instance part="JP3" gate="B5" x="147.32" y="71.12" rot="MR270"/>
-<instance part="JP3" gate="T6" x="149.86" y="152.4" rot="MR270"/>
 <instance part="P+4" gate="1" x="119.38" y="139.7" rot="MR180"/>
 <instance part="+3V5" gate="G$1" x="127" y="139.7" rot="MR180"/>
 <instance part="GND4" gate="1" x="134.62" y="139.7" rot="MR0"/>
-<instance part="JP3" gate="B1" x="119.38" y="71.12" rot="R270"/>
-<instance part="JP3" gate="B2" x="127" y="71.12" rot="R270"/>
-<instance part="JP3" gate="B3" x="134.62" y="71.12" rot="R270"/>
-<instance part="JP3" gate="B4" x="144.78" y="71.12" rot="R270"/>
-<instance part="JP3" gate="T5" x="147.32" y="152.4" rot="R270"/>
-<instance part="JP3" gate="B6" x="149.86" y="71.12" rot="R270"/>
 <instance part="+3V6" gate="G$1" x="127" y="43.18"/>
 <instance part="P+5" gate="1" x="119.38" y="43.18"/>
 <instance part="GND5" gate="1" x="134.62" y="43.18" rot="R180"/>
@@ -6468,6 +6451,26 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <instance part="R6" gate="G$1" x="93.98" y="27.94" rot="R180"/>
 <instance part="GND11" gate="1" x="104.14" y="27.94" rot="R90"/>
 <instance part="GND12" gate="1" x="83.82" y="27.94" rot="R270"/>
+<instance part="JP2" gate="T1" x="119.38" y="152.4" rot="R270"/>
+<instance part="JP2" gate="T2" x="127" y="152.4" rot="R270"/>
+<instance part="JP2" gate="T3" x="134.62" y="152.4" rot="R270"/>
+<instance part="JP2" gate="T4" x="147.32" y="152.4" rot="R270"/>
+<instance part="JP2" gate="T5" x="149.86" y="152.4" rot="R270"/>
+<instance part="JP2" gate="B1" x="119.38" y="71.12" rot="R270"/>
+<instance part="JP2" gate="B2" x="127" y="71.12" rot="R270"/>
+<instance part="JP2" gate="B3" x="134.62" y="71.12" rot="R270"/>
+<instance part="JP2" gate="B4" x="147.32" y="71.12" rot="R270"/>
+<instance part="JP2" gate="B5" x="149.86" y="71.12" rot="R270"/>
+<instance part="JP4" gate="T1" x="149.86" y="111.76" rot="R90"/>
+<instance part="JP4" gate="T2" x="147.32" y="111.76" rot="R90"/>
+<instance part="JP4" gate="T3" x="134.62" y="111.76" rot="R90"/>
+<instance part="JP4" gate="T4" x="127" y="111.76" rot="R90"/>
+<instance part="JP4" gate="T5" x="119.38" y="111.76" rot="R90"/>
+<instance part="JP4" gate="B1" x="149.86" y="30.48" rot="R90"/>
+<instance part="JP4" gate="B2" x="147.32" y="30.48" rot="R90"/>
+<instance part="JP4" gate="B3" x="134.62" y="30.48" rot="R90"/>
+<instance part="JP4" gate="B4" x="127" y="30.48" rot="R90"/>
+<instance part="JP4" gate="B5" x="119.38" y="30.48" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -6494,24 +6497,24 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <wire x1="86.36" y1="58.42" x2="86.36" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="B6" pin="1"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
 <wire x1="119.38" y1="33.02" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="B5" pin="1"/>
 </segment>
 <segment>
 <pinref part="P+8" gate="1" pin="+5V"/>
-<pinref part="JP3" gate="B1" pin="1"/>
 <wire x1="119.38" y1="60.96" x2="119.38" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="B1" pin="1"/>
 </segment>
 <segment>
 <pinref part="P+1" gate="1" pin="+5V"/>
-<pinref part="JP1" gate="T6" pin="1"/>
 <wire x1="119.38" y1="121.92" x2="119.38" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="T5" pin="1"/>
 </segment>
 <segment>
 <pinref part="P+4" gate="1" pin="+5V"/>
-<pinref part="JP3" gate="T1" pin="1"/>
 <wire x1="119.38" y1="142.24" x2="119.38" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="T1" pin="1"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -6546,24 +6549,24 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <wire x1="154.94" y1="50.8" x2="167.64" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="B5" pin="1"/>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
 <wire x1="127" y1="33.02" x2="127" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="B4" pin="1"/>
 </segment>
 <segment>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
-<pinref part="JP3" gate="B2" pin="1"/>
 <wire x1="127" y1="60.96" x2="127" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="B2" pin="1"/>
 </segment>
 <segment>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
-<pinref part="JP1" gate="T5" pin="1"/>
 <wire x1="127" y1="121.92" x2="127" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="T4" pin="1"/>
 </segment>
 <segment>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
-<pinref part="JP3" gate="T2" pin="1"/>
 <wire x1="127" y1="142.24" x2="127" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="T2" pin="1"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -6588,24 +6591,24 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <wire x1="101.6" y1="45.72" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="B4" pin="1"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="134.62" y1="33.02" x2="134.62" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="B3" pin="1"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="JP3" gate="B3" pin="1"/>
 <wire x1="134.62" y1="60.96" x2="134.62" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="B3" pin="1"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="JP1" gate="T4" pin="1"/>
 <wire x1="134.62" y1="121.92" x2="134.62" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="T3" pin="1"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="JP3" gate="T3" pin="1"/>
 <wire x1="134.62" y1="142.24" x2="134.62" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="T3" pin="1"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
@@ -6635,16 +6638,12 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="139.7" x2="149.86" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="139.7" x2="147.32" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="139.7" x2="144.78" y2="139.7" width="0.1524" layer="91"/>
 <junction x="149.86" y="139.7"/>
-<pinref part="JP3" gate="T4" pin="1"/>
-<wire x1="144.78" y1="149.86" x2="144.78" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="T5" pin="1"/>
 <wire x1="147.32" y1="149.86" x2="147.32" y2="139.7" width="0.1524" layer="91"/>
-<junction x="147.32" y="139.7"/>
-<pinref part="JP3" gate="T6" pin="1"/>
 <wire x1="149.86" y1="149.86" x2="149.86" y2="139.7" width="0.1524" layer="91"/>
 <junction x="149.86" y="139.7"/>
+<pinref part="JP2" gate="T4" pin="1"/>
+<pinref part="JP2" gate="T5" pin="1"/>
 </segment>
 </net>
 <net name="IN_T" class="0">
@@ -6655,17 +6654,13 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <wire x1="152.4" y1="119.38" x2="149.86" y2="119.38" width="0.1524" layer="91"/>
 <junction x="149.86" y="119.38"/>
 <wire x1="154.94" y1="119.38" x2="149.86" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="T3" pin="1"/>
 <wire x1="154.94" y1="119.38" x2="149.86" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="119.38" x2="147.32" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="119.38" x2="144.78" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="119.38" x2="144.78" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="T2" pin="1"/>
 <wire x1="147.32" y1="114.3" x2="147.32" y2="119.38" width="0.1524" layer="91"/>
-<junction x="147.32" y="119.38"/>
-<pinref part="JP1" gate="T1" pin="1"/>
 <wire x1="149.86" y1="114.3" x2="149.86" y2="119.38" width="0.1524" layer="91"/>
 <junction x="149.86" y="119.38"/>
+<pinref part="JP4" gate="T2" pin="1"/>
+<pinref part="JP4" gate="T1" pin="1"/>
 </segment>
 </net>
 <net name="OUT_B" class="0">
@@ -6675,16 +6670,12 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="58.42" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="58.42" x2="147.32" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="58.42" x2="144.78" y2="58.42" width="0.1524" layer="91"/>
 <junction x="149.86" y="58.42"/>
-<pinref part="JP3" gate="B4" pin="1"/>
-<wire x1="144.78" y1="68.58" x2="144.78" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="B5" pin="1"/>
 <wire x1="147.32" y1="68.58" x2="147.32" y2="58.42" width="0.1524" layer="91"/>
-<junction x="147.32" y="58.42"/>
-<pinref part="JP3" gate="B6" pin="1"/>
 <wire x1="149.86" y1="68.58" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
 <junction x="149.86" y="58.42"/>
+<pinref part="JP2" gate="B4" pin="1"/>
+<pinref part="JP2" gate="B5" pin="1"/>
 </segment>
 </net>
 <net name="IN_B" class="0">
@@ -6695,17 +6686,13 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <wire x1="152.4" y1="38.1" x2="149.86" y2="38.1" width="0.1524" layer="91"/>
 <junction x="149.86" y="38.1"/>
 <wire x1="154.94" y1="38.1" x2="149.86" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="B3" pin="1"/>
 <wire x1="154.94" y1="38.1" x2="149.86" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="38.1" x2="147.32" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="38.1" x2="144.78" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="38.1" x2="144.78" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="B2" pin="1"/>
 <wire x1="147.32" y1="33.02" x2="147.32" y2="38.1" width="0.1524" layer="91"/>
-<junction x="147.32" y="38.1"/>
-<pinref part="JP1" gate="B1" pin="1"/>
 <wire x1="149.86" y1="33.02" x2="149.86" y2="38.1" width="0.1524" layer="91"/>
 <junction x="149.86" y="38.1"/>
+<pinref part="JP4" gate="B2" pin="1"/>
+<pinref part="JP4" gate="B1" pin="1"/>
 </segment>
 </net>
 </nets>
