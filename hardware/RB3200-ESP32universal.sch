@@ -666,7 +666,7 @@
 Based on the previous libraries:
 &lt;ul&gt;
 &lt;li&gt;r.lbr
-&lt;li&gt;cap.lbr 
+&lt;li&gt;cap.lbr
 &lt;li&gt;cap-fe.lbr
 &lt;li&gt;captant.lbr
 &lt;li&gt;polcap.lbr
@@ -13137,8 +13137,8 @@ Siemens</description>
 <wire x1="0" y1="-0.635" x2="0.635" y2="0" width="0.1524" layer="51" curve="90"/>
 <wire x1="0.0539" y1="-1.0699" x2="1.0699" y2="-0.0539" width="0.1524" layer="51" curve="90"/>
 <wire x1="2.9718" y1="1.8542" x2="2.9718" y2="-1.8542" width="0.1524" layer="21"/>
-<pad name="K" x="-1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="A" x="1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
+<pad name="K" x="-1.27" y="0" drill="0.8128" shape="octagon" rot="R90"/>
+<pad name="A" x="1.27" y="0" drill="0.8128" shape="octagon" rot="R90"/>
 <text x="-1.905" y="2.286" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.905" y="-3.556" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
@@ -13167,8 +13167,8 @@ Siemens</description>
 <wire x1="-2.2129" y1="0.0539" x2="-0.0539" y2="2.2129" width="0.1524" layer="51" curve="-90.010616"/>
 <circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="3.175" width="0.254" layer="21"/>
-<pad name="A" x="1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="K" x="-1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
+<pad name="A" x="1.27" y="0" drill="0.8128" shape="octagon" rot="R90"/>
+<pad name="K" x="-1.27" y="0" drill="0.8128" shape="octagon" rot="R90"/>
 <text x="-4.191" y="3.937" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-4.318" y="-5.08" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
@@ -13190,8 +13190,8 @@ Siemens</description>
 <wire x1="-6.985" y1="0.635" x2="-6.985" y2="-0.635" width="0.1524" layer="21"/>
 <wire x1="-6.096" y1="1.397" x2="-6.096" y2="-1.397" width="0.1524" layer="21"/>
 <wire x1="-5.207" y1="1.905" x2="-5.207" y2="-1.905" width="0.1524" layer="21"/>
-<pad name="K" x="7.62" y="1.27" drill="0.8128" shape="long"/>
-<pad name="A" x="7.62" y="-1.27" drill="0.8128" shape="long"/>
+<pad name="K" x="7.62" y="1.27" drill="0.8128" shape="octagon"/>
+<pad name="A" x="7.62" y="-1.27" drill="0.8128" shape="octagon"/>
 <text x="3.302" y="-2.794" size="1.016" layer="21" ratio="14">A+</text>
 <text x="3.302" y="1.778" size="1.016" layer="21" ratio="14">K-</text>
 <text x="11.684" y="-2.794" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
@@ -13221,8 +13221,8 @@ Siemens</description>
 <wire x1="2.54" y1="-3.302" x2="-2.54" y2="-3.302" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="3.175" width="0.254" layer="21"/>
-<pad name="A" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="K" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="A" x="-1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="K" x="1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
 <text x="-3.81" y="4.0894" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.7846" y="-5.3594" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-3.556" y="-3.302" size="1.016" layer="21" ratio="14">+</text>
@@ -13250,8 +13250,8 @@ Inifineon</description>
 <wire x1="0.0539" y1="-1.0699" x2="1.0699" y2="-0.0539" width="0.1524" layer="51" curve="90"/>
 <circle x="0" y="0" radius="2.667" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="2.413" width="0.254" layer="21"/>
-<pad name="K" x="-1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="A" x="1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
+<pad name="K" x="-1.27" y="0" drill="0.8128" shape="octagon" rot="R90"/>
+<pad name="A" x="1.27" y="0" drill="0.8128" shape="octagon" rot="R90"/>
 <text x="-1.27" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.27" y="-4.318" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
@@ -13277,8 +13277,8 @@ Inifineon</description>
 <wire x1="0.0539" y1="-1.0699" x2="1.0699" y2="-0.0539" width="0.1524" layer="51" curve="90"/>
 <circle x="0" y="0" radius="2.667" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="2.413" width="0.254" layer="21"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" shape="octagon" rot="R90"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" shape="octagon" rot="R90"/>
 <text x="-1.27" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.27" y="-4.318" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
@@ -13308,8 +13308,8 @@ rectangle, 5.7 x 3.2 mm</description>
 <wire x1="0.762" y1="1.27" x2="0.762" y2="-1.27" width="0.1524" layer="51"/>
 <wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.1524" layer="51"/>
 <wire x1="1.778" y1="1.27" x2="1.778" y2="-1.27" width="0.1524" layer="51"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" shape="octagon" rot="R90"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" shape="octagon" rot="R90"/>
 <text x="3.683" y="0.254" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.683" y="-1.524" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
@@ -14977,18 +14977,18 @@ Source: www.kingbright.com</description>
 <wire x1="15.24" y1="-0.635" x2="14.605" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="14.605" y1="-1.27" x2="13.335" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="13.335" y1="-1.27" x2="12.7" y2="-0.635" width="0.1524" layer="21"/>
-<pad name="1" x="-13.97" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="-11.43" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="-8.89" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="-6.35" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="5" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="6" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="7" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="8" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="9" x="6.35" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="10" x="8.89" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="11" x="11.43" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="12" x="13.97" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-13.97" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="2" x="-11.43" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="3" x="-8.89" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="4" x="-6.35" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="5" x="-3.81" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="6" x="-1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="7" x="1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="8" x="3.81" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="9" x="6.35" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="10" x="8.89" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="11" x="11.43" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="12" x="13.97" y="0" drill="1.016" shape="octagon" rot="R90"/>
 <text x="-15.3162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-15.24" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="11.176" y1="-0.254" x2="11.684" y2="0.254" layer="51"/>
@@ -15105,20 +15105,20 @@ Source: www.kingbright.com</description>
 <wire x1="17.78" y1="-0.635" x2="17.145" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="17.145" y1="-1.27" x2="15.875" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="15.875" y1="-1.27" x2="15.24" y2="-0.635" width="0.1524" layer="21"/>
-<pad name="1" x="-16.51" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="-13.97" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="-11.43" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="-8.89" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="5" x="-6.35" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="6" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="7" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="8" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="9" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="10" x="6.35" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="11" x="8.89" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="12" x="11.43" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="13" x="13.97" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="14" x="16.51" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-16.51" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="2" x="-13.97" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="3" x="-11.43" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="4" x="-8.89" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="5" x="-6.35" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="6" x="-3.81" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="7" x="-1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="8" x="1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="9" x="3.81" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="10" x="6.35" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="11" x="8.89" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="12" x="11.43" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="13" x="13.97" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="14" x="16.51" y="0" drill="1.016" shape="octagon" rot="R90"/>
 <text x="-17.8562" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-17.78" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="13.716" y1="-0.254" x2="14.224" y2="0.254" layer="51"/>
@@ -15195,20 +15195,20 @@ Source: www.kingbright.com</description>
 <wire x1="17.78" y1="-1.905" x2="17.78" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="17.78" y1="0.635" x2="15.24" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="16.51" y1="6.985" x2="16.51" y2="1.27" width="0.762" layer="21"/>
-<pad name="1" x="-16.51" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="-13.97" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="-11.43" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="-8.89" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="5" x="-6.35" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="6" x="-3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="7" x="-1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="8" x="1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="9" x="3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="10" x="6.35" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="11" x="8.89" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="12" x="11.43" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="13" x="13.97" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="14" x="16.51" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-16.51" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="2" x="-13.97" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="3" x="-11.43" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="4" x="-8.89" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="5" x="-6.35" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="6" x="-3.81" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="7" x="-1.27" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="8" x="1.27" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="9" x="3.81" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="10" x="6.35" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="11" x="8.89" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="12" x="11.43" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="13" x="13.97" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="14" x="16.51" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
 <text x="-18.415" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="19.685" y="-4.445" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <rectangle x1="-16.891" y1="0.635" x2="-16.129" y2="1.143" layer="21"/>
@@ -15417,18 +15417,18 @@ Source: www.kingbright.com</description>
 <wire x1="15.24" y1="-1.905" x2="15.24" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="15.24" y1="0.635" x2="12.7" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="13.97" y1="6.985" x2="13.97" y2="1.27" width="0.762" layer="21"/>
-<pad name="1" x="-13.97" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="-11.43" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="-8.89" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="-6.35" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="5" x="-3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="6" x="-1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="7" x="1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="8" x="3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="9" x="6.35" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="10" x="8.89" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="11" x="11.43" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="12" x="13.97" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-13.97" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="2" x="-11.43" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="3" x="-8.89" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="4" x="-6.35" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="5" x="-3.81" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="6" x="-1.27" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="7" x="1.27" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="8" x="3.81" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="9" x="6.35" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="10" x="8.89" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="11" x="11.43" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="12" x="13.97" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
 <text x="-15.875" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="17.145" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <rectangle x1="-14.351" y1="0.635" x2="-13.589" y2="1.143" layer="21"/>
@@ -15473,8 +15473,8 @@ Source: www.kingbright.com</description>
 <wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
 <text x="-2.6162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
@@ -15491,8 +15491,8 @@ Source: www.kingbright.com</description>
 <wire x1="2.54" y1="-1.905" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="1.27" y1="6.985" x2="1.27" y2="1.27" width="0.762" layer="21"/>
-<pad name="1" x="-1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-1.27" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="2" x="1.27" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
 <text x="-3.175" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="4.445" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <rectangle x1="-1.651" y1="0.635" x2="-0.889" y2="1.143" layer="21"/>
@@ -15559,14 +15559,14 @@ Source: www.kingbright.com</description>
 <wire x1="8.255" y1="1.27" x2="7.62" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="7.62" y1="-0.635" x2="8.255" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="9.525" y1="-1.27" x2="8.255" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="-8.89" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="-6.35" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="5" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="6" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="7" x="6.35" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="8" x="8.89" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-8.89" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="2" x="-6.35" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="3" x="-3.81" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="4" x="-1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="5" x="1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="6" x="3.81" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="7" x="6.35" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="8" x="8.89" y="0" drill="1.016" shape="octagon" rot="R90"/>
 <text x="-10.2362" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-10.16" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
@@ -15751,14 +15751,14 @@ Source: www.kingbright.com</description>
 <wire x1="10.16" y1="-1.905" x2="10.16" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="10.16" y1="0.635" x2="7.62" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="8.89" y1="6.985" x2="8.89" y2="1.27" width="0.762" layer="21"/>
-<pad name="1" x="-8.89" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="-6.35" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="-3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="-1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="5" x="1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="6" x="3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="7" x="6.35" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="8" x="8.89" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-8.89" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="2" x="-6.35" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="3" x="-3.81" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="4" x="-1.27" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="5" x="1.27" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="6" x="3.81" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="7" x="6.35" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="8" x="8.89" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
 <text x="-10.795" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="12.065" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <rectangle x1="-9.271" y1="0.635" x2="-8.509" y2="1.143" layer="21"/>
@@ -15816,11 +15816,11 @@ Source: www.kingbright.com</description>
 <wire x1="4.445" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="3.81" y1="-0.635" x2="4.445" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="5.715" y1="-1.27" x2="4.445" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="-5.08" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="5" x="5.08" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-5.08" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="2" x="-2.54" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="3" x="0" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="4" x="2.54" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="5" x="5.08" y="0" drill="1.016" shape="octagon" rot="R90"/>
 <text x="-6.4262" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-6.35" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
@@ -15852,11 +15852,11 @@ Source: www.kingbright.com</description>
 <wire x1="6.35" y1="-1.905" x2="6.35" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="6.35" y1="0.635" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="5.08" y1="6.985" x2="5.08" y2="1.27" width="0.762" layer="21"/>
-<pad name="1" x="-5.08" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="-2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="0" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="5" x="5.08" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-5.08" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="2" x="-2.54" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="3" x="0" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="4" x="2.54" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="5" x="5.08" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
 <text x="-6.985" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="8.255" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <rectangle x1="-5.461" y1="0.635" x2="-4.699" y2="1.143" layer="21"/>
@@ -17220,9 +17220,9 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <wire x1="5.08" y1="-1.143" x2="5.08" y2="-4.064" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="-4.064" x2="-5.08" y2="-1.143" width="0.1524" layer="21"/>
 <circle x="-4.6228" y="-3.7084" radius="0.254" width="0" layer="21"/>
-<pad name="IN" x="-2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<pad name="GND" x="0" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<pad name="OUT" x="2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="IN" x="-2.54" y="-2.54" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="GND" x="0" y="-2.54" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="OUT" x="2.54" y="-2.54" drill="1.016" shape="octagon" rot="R90"/>
 <text x="-5.08" y="-6.0452" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-7.62" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-0.635" y="-3.81" size="1.27" layer="51" ratio="10">-</text>
@@ -17557,8 +17557,8 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <wire x1="2.5" y1="1.23" x2="2.5" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="2.5" y1="-1.27" x2="2" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="2" y1="-1.27" x2="2" y2="1.23" width="0.127" layer="21"/>
-<pad name="P$2" x="3.231" y="-0.02" drill="1.1" shape="long"/>
-<pad name="P$4" x="-3.204" y="-0.02" drill="1.1" shape="long"/>
+<pad name="P$2" x="3.231" y="-0.02" drill="1.1" shape="octagon"/>
+<pad name="P$4" x="-3.204" y="-0.02" drill="1.1" shape="octagon"/>
 <text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.81" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 </package>
