@@ -13,7 +13,7 @@ The ESP32 board you have always dreamed of by RobotikaBrno.cz!
     - each pin has its own 5V, 3V3 and GND pin
 - Arduino Uno compatible header
 - USB2Serial chip for easy button-less programming
-    - will pins populated pin headers
+    - all pins populated to pin headers
 - support for external power supply with high-current voltage regulator
 - diagnostic LEDs
 
