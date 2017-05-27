@@ -17653,78 +17653,360 @@ DIN A3, landscape with location and doc. field</description>
 </class>
 </classes>
 <parts>
-<part name="U1" library="esp32" deviceset="ESP-WROOM-32" device=""/>
+<part name="U1" library="esp32" deviceset="ESP-WROOM-32" device="">
+<attribute name="DIGIKEY" value="1738-1294-ND"/>
+</part>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="U2" library="um185xx" deviceset="UM185XX" device="" value="UM18533"/>
-<part name="X1" library="usb" deviceset="USB" device="-MICRO-B-BOTTOM"/>
-<part name="T1" library="transistors" deviceset="NPN" device="-SOT23-BEC" value="BC337"/>
-<part name="T2" library="transistors" deviceset="NPN" device="-SOT23-BEC" value="BC337"/>
-<part name="C1" library="rcl_upravena" deviceset="C-EU" device="C0402" value="100n/16V"/>
-<part name="C3" library="rcl_upravena" deviceset="C-EU" device="C0603" value="4u7/16V"/>
+<part name="U2" library="um185xx" deviceset="UM185XX" device="" value="UM18533">
+<attribute name="DIGIKEY" value="296-17580-1-ND"/>
+<attribute name="FARNELL" value="1135395"/>
+<attribute name="MOUSER" value="595-TPS73033DBVR"/>
+<attribute name="RS" value="620-1401"/>
+</part>
+<part name="X1" library="usb" deviceset="USB" device="-MICRO-B-BOTTOM">
+<attribute name="DIGIKEY" value="WM17141CT-ND"/>
+<attribute name="FARNELL" value="1568026"/>
+<attribute name="MOUSER" value="538-47346-0001"/>
+<attribute name="RS" value="702-5475"/>
+</part>
+<part name="T1" library="transistors" deviceset="NPN" device="-SOT23-BEC" value="BC337">
+<attribute name="DIGIKEY" value="1727-2919-1-ND"/>
+<attribute name="FARNELL" value="1081224"/>
+<attribute name="MOUSER" value="771-BC817-40-T/R"/>
+<attribute name="RS" value="216-9410"/>
+</part>
+<part name="T2" library="transistors" deviceset="NPN" device="-SOT23-BEC" value="BC337">
+<attribute name="DIGIKEY" value="1727-2919-1-ND"/>
+<attribute name="FARNELL" value="1081224"/>
+<attribute name="MOUSER" value="771-BC817-40-T/R"/>
+<attribute name="RS" value="216-9410"/>
+</part>
+<part name="C1" library="rcl_upravena" deviceset="C-EU" device="C0402" value="100n/16V">
+<attribute name="DIGIKEY" value="732-7478-1-ND"/>
+<attribute name="FARNELL" value="2533923RL"/>
+<attribute name="MOUSER" value="710-885012105001"/>
+<attribute name="RS" value="839-1622"/>
+</part>
+<part name="C3" library="rcl_upravena" deviceset="C-EU" device="C0603" value="4u7/16V">
+<attribute name="DIGIKEY" value="478-1253-1-ND"/>
+<attribute name="FARNELL" value="9227784"/>
+<attribute name="MOUSER" value="06034D475KAT2A"/>
+<attribute name="RS" value="698-3248"/>
+</part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0603" value="yellow"/>
-<part name="LED2" library="led" deviceset="LED" device="CHIP-LED0603" value="yellow"/>
-<part name="LED3" library="led" deviceset="LED" device="CHIP-LED0603" value="yellow"/>
-<part name="R1" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="470R"/>
-<part name="R2" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="470R"/>
-<part name="R3" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="470R"/>
-<part name="R4" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="R5" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0603" value="yellow">
+<attribute name="DIGIKEY" value="732-4981-1-ND"/>
+<attribute name="FARNELL" value="2322074"/>
+<attribute name="MOUSER" value="710-150060YS75000"/>
+<attribute name="RS" value="815-4219"/>
+</part>
+<part name="LED2" library="led" deviceset="LED" device="CHIP-LED0603" value="yellow">
+<attribute name="DIGIKEY" value="732-4981-1-ND"/>
+<attribute name="FARNELL" value="2322074"/>
+<attribute name="MOUSER" value="710-150060YS75000"/>
+<attribute name="RS" value="815-4219"/>
+</part>
+<part name="LED3" library="led" deviceset="LED" device="CHIP-LED0603" value="yellow">
+<attribute name="DIGIKEY" value="732-4981-1-ND"/>
+<attribute name="FARNELL" value="2322074"/>
+<attribute name="MOUSER" value="710-150060YS75000"/>
+<attribute name="RS" value="815-4219"/>
+</part>
+<part name="R1" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="470R">
+<attribute name="DIGIKEY" value="311-470HRCT-ND"/>
+<attribute name="FARNELL" value="9238441"/>
+<attribute name="MOUSER" value="603-RC0603FR-07470RL"/>
+<attribute name="RS" value="504-7341"/>
+</part>
+<part name="R2" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="470R">
+<attribute name="DIGIKEY" value="311-470HRCT-ND"/>
+<attribute name="FARNELL" value="9238441"/>
+<attribute name="MOUSER" value="603-RC0603FR-07470RL"/>
+<attribute name="RS" value="504-7341"/>
+</part>
+<part name="R3" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="470R">
+<attribute name="DIGIKEY" value="311-470HRCT-ND"/>
+<attribute name="FARNELL" value="9238441"/>
+<attribute name="MOUSER" value="603-RC0603FR-07470RL"/>
+<attribute name="RS" value="504-7341"/>
+</part>
+<part name="R4" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="10k">
+<attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
+<attribute name="FARNELL" value="9238603"/>
+<attribute name="MOUSER" value="603-RC0603FR-0710KL"/>
+<attribute name="RS" value="504-8934"/>
+</part>
+<part name="R5" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="10k">
+<attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
+<attribute name="FARNELL" value="9238603"/>
+<attribute name="MOUSER" value="603-RC0603FR-0710KL"/>
+<attribute name="RS" value="504-8934"/>
+</part>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="C4" library="rcl_upravena" deviceset="C-EU" device="C0603" value="4u7/16V"/>
-<part name="C5" library="rcl_upravena" deviceset="C-EU" device="C0603" value="4u7/16V"/>
+<part name="C4" library="rcl_upravena" deviceset="C-EU" device="C0603" value="4u7/16V">
+<attribute name="DIGIKEY" value="478-1253-1-ND"/>
+<attribute name="FARNELL" value="9227784"/>
+<attribute name="MOUSER" value="06034D475KAT2A"/>
+<attribute name="RS" value="698-3248"/>
+</part>
+<part name="C5" library="rcl_upravena" deviceset="C-EU" device="C0603" value="4u7/16V">
+<attribute name="DIGIKEY" value="478-1253-1-ND"/>
+<attribute name="FARNELL" value="9227784"/>
+<attribute name="MOUSER" value="06034D475KAT2A"/>
+<attribute name="RS" value="698-3248"/>
+</part>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="R11" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="R12" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
+<part name="R11" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="R12" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
 <part name="NC3" library="NC" deviceset="NC" device=""/>
-<part name="LED_3V3" library="led" deviceset="LED" device="CHIPLED_0603" value="green"/>
-<part name="R26" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="470R"/>
+<part name="LED_3V3" library="led" deviceset="LED" device="CHIPLED_0603" value="green">
+<attribute name="DIGIKEY" value="872-1799"/>
+<attribute name="FARNELL" value="2293494"/>
+<attribute name="MOUSER" value="859-LTST-C191KGKT"/>
+<attribute name="RS" value="872-1799"/>
+</part>
+<part name="R26" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="470R">
+<attribute name="DIGIKEY" value="311-470HRCT-ND"/>
+<attribute name="FARNELL" value="9238441"/>
+<attribute name="MOUSER" value="603-RC0603FR-07470RL"/>
+<attribute name="RS" value="504-7341"/>
+</part>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
-<part name="C7" library="rcl_upravena" deviceset="C-EU" device="C0402" value="100n/16V"/>
-<part name="R6" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="R7" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="R8" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="R9" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="R10" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="R13" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="R14" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="R15" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="R16" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="R17" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="R18" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="JP2" library="pinhead" deviceset="PINHD-2X12" device=""/>
-<part name="JP3" library="pinhead" deviceset="PINHD-2X12" device=""/>
-<part name="PWR_1" library="pinhead" deviceset="PINHD-2X12" device=""/>
-<part name="R20" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="R21" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="R23" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="R24" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="R25" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="R27" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="R28" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="R29" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="R30" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="R31" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="R32" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="JP6" library="pinhead" deviceset="PINHD-2X14" device=""/>
-<part name="JP7" library="pinhead" deviceset="PINHD-2X14" device=""/>
-<part name="PWR_2" library="pinhead" deviceset="PINHD-2X14" device=""/>
-<part name="R22" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="R33" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
-<part name="R34" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
+<part name="C7" library="rcl_upravena" deviceset="C-EU" device="C0402" value="100n/16V">
+<attribute name="DIGIKEY" value="732-7478-1-ND"/>
+<attribute name="FARNELL" value="2533923RL"/>
+<attribute name="MOUSER" value="710-885012105001"/>
+<attribute name="RS" value="839-1622"/>
+</part>
+<part name="R6" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="R7" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="R8" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="R9" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="R10" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="R13" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="R14" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="R15" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="R16" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="R17" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="R18" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="JP2" library="pinhead" deviceset="PINHD-2X12" device="">
+<attribute name="DIGIKEY" value="WM8148-ND"/>
+<attribute name="FARNELL" value="9733663"/>
+<attribute name="MOUSER" value="538-90131-0772"/>
+<attribute name="RS" value="670-3500"/>
+</part>
+<part name="JP3" library="pinhead" deviceset="PINHD-2X12" device="">
+<attribute name="DIGIKEY" value="WM8148-ND"/>
+<attribute name="FARNELL" value="9733663"/>
+<attribute name="MOUSER" value="538-90131-0772"/>
+<attribute name="RS" value="670-3500"/>
+</part>
+<part name="PWR_1" library="pinhead" deviceset="PINHD-2X12" device="">
+<attribute name="DIGIKEY" value="WM8148-ND"/>
+<attribute name="FARNELL" value="9733663"/>
+<attribute name="MOUSER" value="538-90131-0772"/>
+<attribute name="RS" value="670-3500"/>
+</part>
+<part name="R20" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="R21" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="R23" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="R24" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="R25" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="R27" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="R28" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="R29" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="R30" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="R31" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="R32" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="JP6" library="pinhead" deviceset="PINHD-2X14" device="">
+<attribute name="DIGIKEY" value="WM8150-ND"/>
+<attribute name="FARNELL" value="2356142"/>
+<attribute name="MOUSER" value="538-90131-0774"/>
+<attribute name="RS" value="670-3512"/>
+</part>
+<part name="JP7" library="pinhead" deviceset="PINHD-2X14" device="">
+<attribute name="DIGIKEY" value="WM8150-ND"/>
+<attribute name="FARNELL" value="2356142"/>
+<attribute name="MOUSER" value="538-90131-0774"/>
+<attribute name="RS" value="670-3512"/>
+</part>
+<part name="PWR_2" library="pinhead" deviceset="PINHD-2X14" device="">
+<attribute name="DIGIKEY" value="WM8150-ND"/>
+<attribute name="FARNELL" value="2356142"/>
+<attribute name="MOUSER" value="538-90131-0774"/>
+<attribute name="RS" value="670-3512"/>
+</part>
+<part name="R22" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="R33" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
+<part name="R34" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
 <part name="U3" library="adafruit" deviceset="ARDUINOR3" device="-BPLACE"/>
-<part name="JP1" library="pinhead" deviceset="PINHD-1X12" device=""/>
-<part name="JP5" library="pinhead" deviceset="PINHD-1X14" device=""/>
-<part name="EN" library="pinhead" deviceset="PINHD-1X2" device=""/>
-<part name="R19" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R"/>
+<part name="JP1" library="pinhead" deviceset="PINHD-1X12" device="">
+<attribute name="DIGIKEY" value="WM50014-12-ND"/>
+<attribute name="FARNELL" value="1593418"/>
+<attribute name="MOUSER" value="538-22-28-4120"/>
+<attribute name="RS" value="821-5689"/>
+</part>
+<part name="JP5" library="pinhead" deviceset="PINHD-1X14" device="">
+<attribute name="DIGIKEY" value="0901200134-ND"/>
+<attribute name="FARNELL" value="2356164"/>
+<attribute name="MOUSER" value="538-90120-0134"/>
+<attribute name="RS" value="670-5060"/>
+</part>
+<part name="EN" library="pinhead" deviceset="PINHD-1X2" device="">
+<attribute name="DIGIKEY" value="3M9457-02-ND"/>
+<attribute name="FARNELL" value="2396217"/>
+<attribute name="MOUSER" value="517-9611026404AR"/>
+<attribute name="RS" value="827-7775 "/>
+</part>
+<part name="R19" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
+<attribute name="DIGIKEY" value="311-180HRCT-ND"/>
+<attribute name="FARNELL" value="9238395"/>
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="RS" value="504-9937"/>
+</part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
@@ -17732,37 +18014,117 @@ DIN A3, landscape with location and doc. field</description>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
-<part name="PWR" library="con-phoenix-508" deviceset="MKDSN1,5/2-5,08" device=""/>
+<part name="PWR" library="con-phoenix-508" deviceset="MKDSN1,5/2-5,08" device="">
+<attribute name="DIGIKEY" value="277-5953-ND"/>
+<attribute name="FARNELL" value="2490945"/>
+<attribute name="MOUSER" value="651-1890963"/>
+<attribute name="RS" value="804-5118"/>
+</part>
 <part name="D5" library="diode" deviceset="SHOTTKY" device="-SOD123" value="skl34"/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
-<part name="IC2" library="v-reg" deviceset="78XXS" device="" value="7805"/>
-<part name="C20" library="rcl_upravena" deviceset="C-EU" device="C0402" value="100n/16V"/>
-<part name="C21" library="rcl_upravena" deviceset="C-EU" device="C0402" value="100n/16V"/>
+<part name="IC2" library="v-reg" deviceset="78XXS" device="" value="7805">
+<attribute name="DIGIKEY" value="1016-1538-5-ND"/>
+<attribute name="FARNELL" value="9756078"/>
+<attribute name="MOUSER" value="701-SP7805V-L"/>
+<attribute name="RS" value="769-5466"/>
+</part>
+<part name="C20" library="rcl_upravena" deviceset="C-EU" device="C0402" value="100n/16V">
+<attribute name="DIGIKEY" value="732-7478-1-ND"/>
+<attribute name="FARNELL" value="2533923RL"/>
+<attribute name="MOUSER" value="710-885012105001"/>
+<attribute name="RS" value="839-1622"/>
+</part>
+<part name="C21" library="rcl_upravena" deviceset="C-EU" device="C0402" value="100n/16V">
+<attribute name="DIGIKEY" value="732-7478-1-ND"/>
+<attribute name="FARNELL" value="2533923RL"/>
+<attribute name="MOUSER" value="710-885012105001"/>
+<attribute name="RS" value="839-1622"/>
+</part>
 <part name="P+17" library="supply1" deviceset="+5V" device=""/>
-<part name="C70" library="rcl_upravena" deviceset="C-EU" device="C0805" value="4u7/16V"/>
-<part name="C67" library="rcl_upravena" deviceset="C-EU" device="C0805" value="4u7/16V"/>
+<part name="C70" library="rcl_upravena" deviceset="C-EU" device="C0805" value="4u7/16V">
+<attribute name="DIGIKEY" value="1276-2970-2-ND"/>
+<attribute name="FARNELL" value="2320854"/>
+<attribute name="MOUSER" value="963-EMK212B7475KG-T"/>
+<attribute name="RS" value="766-1037"/>
+</part>
+<part name="C67" library="rcl_upravena" deviceset="C-EU" device="C0805" value="4u7/16V">
+<attribute name="DIGIKEY" value="1276-2970-2-ND"/>
+<attribute name="FARNELL" value="2320854"/>
+<attribute name="MOUSER" value="963-EMK212B7475KG-T"/>
+<attribute name="RS" value="766-1037"/>
+</part>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
-<part name="C37" library="rcl_upravena" deviceset="CPOL-EU" device="E5-10.5" value="330u/16V"/>
+<part name="C37" library="rcl_upravena" deviceset="CPOL-EU" device="E5-10.5" value="330u/16V">
+<attribute name="DIGIKEY" value="493-6629-1-ND"/>
+<attribute name="FARNELL" value="9692045"/>
+<attribute name="MOUSER" value="140-REA331M1CBK0811P"/>
+<attribute name="RS" value="707-5840"/>
+</part>
 <part name="D1" library="diode" deviceset="SHOTTKY" device="-SOD123" value="skl34"/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="JP11" library="pinhead" deviceset="PINHD-1X8" device=""/>
-<part name="SERVOS" library="pinhead" deviceset="PINHD-2X6" device=""/>
-<part name="+5V" library="pinhead" deviceset="PINHD-2X6" device=""/>
+<part name="JP11" library="pinhead" deviceset="PINHD-1X8" device="">
+<attribute name="DIGIKEY" value="A122911-ND"/>
+<attribute name="FARNELL" value="1248147"/>
+<attribute name="MOUSER" value="571-826926-8"/>
+<attribute name="RS" value="669-5339"/>
+</part>
+<part name="SERVOS" library="pinhead" deviceset="PINHD-2X6" device="">
+<attribute name="DIGIKEY" value="A122662-ND"/>
+<attribute name="FARNELL" value="1248162"/>
+<attribute name="MOUSER" value="571-826942-6"/>
+<attribute name="RS" value="681-2953"/>
+</part>
+<part name="+5V" library="pinhead" deviceset="PINHD-2X6" device="">
+<attribute name="DIGIKEY" value="A122662-ND"/>
+<attribute name="FARNELL" value="1248162"/>
+<attribute name="MOUSER" value="571-826942-6"/>
+<attribute name="RS" value="681-2953"/>
+</part>
 <part name="NC28" library="NC" deviceset="NC" device=""/>
-<part name="C8" library="rcl_upravena" deviceset="C-EU" device="C0805" value="4u7/16V"/>
-<part name="C9" library="rcl_upravena" deviceset="C-EU" device="C0805" value="4u7/16V"/>
-<part name="C10" library="rcl_upravena" deviceset="C-EU" device="C0805" value="4u7/16V"/>
+<part name="C8" library="rcl_upravena" deviceset="C-EU" device="C0805" value="4u7/16V">
+<attribute name="DIGIKEY" value="1276-2970-2-ND"/>
+<attribute name="FARNELL" value="2320854"/>
+<attribute name="MOUSER" value="963-EMK212B7475KG-T"/>
+<attribute name="RS" value="766-1037"/>
+</part>
+<part name="C9" library="rcl_upravena" deviceset="C-EU" device="C0805" value="4u7/16V">
+<attribute name="DIGIKEY" value="1276-2970-2-ND"/>
+<attribute name="FARNELL" value="2320854"/>
+<attribute name="MOUSER" value="963-EMK212B7475KG-T"/>
+<attribute name="RS" value="766-1037"/>
+</part>
+<part name="C10" library="rcl_upravena" deviceset="C-EU" device="C0805" value="4u7/16V">
+<attribute name="DIGIKEY" value="1276-2970-2-ND"/>
+<attribute name="FARNELL" value="2320854"/>
+<attribute name="MOUSER" value="963-EMK212B7475KG-T"/>
+<attribute name="RS" value="766-1037"/>
+</part>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
-<part name="IC3" library="CP2102N" deviceset="CP2102N-28" device=""/>
-<part name="R35" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="C2" library="rcl_upravena" deviceset="C-EU" device="C0603" value="4u7/16V"/>
+<part name="IC3" library="CP2102N" deviceset="CP2102N-28" device="">
+<attribute name="DIGIKEY" value="336-3694-ND"/>
+<attribute name="FARNELL" value="2577279"/>
+<attribute name="MOUSER" value="634-CP2102NA01GQFN28"/>
+<attribute name="RS" value="526-8841"/>
+</part>
+<part name="R35" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="10k">
+<attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
+<attribute name="FARNELL" value="9238603"/>
+<attribute name="MOUSER" value="603-RC0603FR-0710KL"/>
+<attribute name="RS" value="504-8934"/>
+</part>
+<part name="C2" library="rcl_upravena" deviceset="C-EU" device="C0603" value="4u7/16V">
+<attribute name="DIGIKEY" value="478-1253-1-ND"/>
+<attribute name="FARNELL" value="9227784"/>
+<attribute name="MOUSER" value="06034D475KAT2A"/>
+<attribute name="RS" value="698-3248"/>
+</part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
@@ -17770,98 +18132,413 @@ DIN A3, landscape with location and doc. field</description>
 <part name="VCC2" library="supply1" deviceset="VCCIO" device=""/>
 <part name="VCC3" library="supply1" deviceset="VCCIO" device=""/>
 <part name="VCC4" library="supply1" deviceset="VCCIO" device=""/>
-<part name="!RESET" library="pinhead_smd" deviceset="PINH1X01" device=""/>
-<part name="!SUSPEND" library="pinhead_smd" deviceset="PINH1X01" device=""/>
-<part name="!RTS" library="pinhead_smd" deviceset="PINH1X01" device=""/>
-<part name="!CTS" library="pinhead_smd" deviceset="PINH1X01" device=""/>
-<part name="!DTR" library="pinhead_smd" deviceset="PINH1X01" device=""/>
-<part name="!DSR" library="pinhead_smd" deviceset="PINH1X01" device=""/>
-<part name="!DCD" library="pinhead_smd" deviceset="PINH1X01" device=""/>
-<part name="RI/CLK" library="pinhead_smd" deviceset="PINH1X01" device=""/>
-<part name="IO0/TXLED" library="pinhead_smd" deviceset="PINH1X01" device=""/>
-<part name="IO1/RXLED" library="pinhead_smd" deviceset="PINH1X01" device=""/>
-<part name="IO2/RS485" library="pinhead_smd" deviceset="PINH1X01" device=""/>
-<part name="IO3/WAKEUP" library="pinhead_smd" deviceset="PINH1X01" device=""/>
-<part name="IO4" library="pinhead_smd" deviceset="PINH1X01" device=""/>
-<part name="IO5" library="pinhead_smd" deviceset="PINH1X01" device=""/>
-<part name="IO6" library="pinhead_smd" deviceset="PINH1X01" device=""/>
-<part name="CHREN" library="pinhead_smd" deviceset="PINH1X01" device=""/>
-<part name="CHR0" library="pinhead_smd" deviceset="PINH1X01" device=""/>
-<part name="CHR1" library="pinhead_smd" deviceset="PINH1X01" device=""/>
-<part name="SUSPEND" library="pinhead_smd" deviceset="PINH1X01" device=""/>
-<part name="VUSB" library="pinhead" deviceset="PINHD-1X2" device=""/>
-<part name="USB" library="pinhead" deviceset="PINHD-1X5" device=""/>
+<part name="!RESET" library="pinhead_smd" deviceset="PINH1X01" device="">
+<attribute name="DIGIKEY" value="WM14724-ND"/>
+<attribute name="FARNELL" value="1756963"/>
+<attribute name="MOUSER" value="538-90120-0761"/>
+<attribute name="RS" value="863-2706 "/>
+</part>
+<part name="!SUSPEND" library="pinhead_smd" deviceset="PINH1X01" device="">
+<attribute name="DIGIKEY" value="WM14724-ND"/>
+<attribute name="FARNELL" value="1756963"/>
+<attribute name="MOUSER" value="538-90120-0761"/>
+<attribute name="RS" value="863-2706 "/>
+</part>
+<part name="!RTS" library="pinhead_smd" deviceset="PINH1X01" device="">
+<attribute name="DIGIKEY" value="WM14724-ND"/>
+<attribute name="FARNELL" value="1756963"/>
+<attribute name="MOUSER" value="538-90120-0761"/>
+<attribute name="RS" value="863-2706 "/>
+</part>
+<part name="!CTS" library="pinhead_smd" deviceset="PINH1X01" device="">
+<attribute name="DIGIKEY" value="WM14724-ND"/>
+<attribute name="FARNELL" value="1756963"/>
+<attribute name="MOUSER" value="538-90120-0761"/>
+<attribute name="RS" value="863-2706 "/>
+</part>
+<part name="!DTR" library="pinhead_smd" deviceset="PINH1X01" device="">
+<attribute name="DIGIKEY" value="WM14724-ND"/>
+<attribute name="FARNELL" value="1756963"/>
+<attribute name="MOUSER" value="538-90120-0761"/>
+<attribute name="RS" value="863-2706 "/>
+</part>
+<part name="!DSR" library="pinhead_smd" deviceset="PINH1X01" device="">
+<attribute name="DIGIKEY" value="WM14724-ND"/>
+<attribute name="FARNELL" value="1756963"/>
+<attribute name="MOUSER" value="538-90120-0761"/>
+<attribute name="RS" value="863-2706 "/>
+</part>
+<part name="!DCD" library="pinhead_smd" deviceset="PINH1X01" device="">
+<attribute name="DIGIKEY" value="WM14724-ND"/>
+<attribute name="FARNELL" value="1756963"/>
+<attribute name="MOUSER" value="538-90120-0761"/>
+<attribute name="RS" value="863-2706 "/>
+</part>
+<part name="RI/CLK" library="pinhead_smd" deviceset="PINH1X01" device="">
+<attribute name="DIGIKEY" value="WM14724-ND"/>
+<attribute name="FARNELL" value="1756963"/>
+<attribute name="MOUSER" value="538-90120-0761"/>
+<attribute name="RS" value="863-2706 "/>
+</part>
+<part name="IO0/TXLED" library="pinhead_smd" deviceset="PINH1X01" device="">
+<attribute name="DIGIKEY" value="WM14724-ND"/>
+<attribute name="FARNELL" value="1756963"/>
+<attribute name="MOUSER" value="538-90120-0761"/>
+<attribute name="RS" value="863-2706 "/>
+</part>
+<part name="IO1/RXLED" library="pinhead_smd" deviceset="PINH1X01" device="">
+<attribute name="DIGIKEY" value="WM14724-ND"/>
+<attribute name="FARNELL" value="1756963"/>
+<attribute name="MOUSER" value="538-90120-0761"/>
+<attribute name="RS" value="863-2706 "/>
+</part>
+<part name="IO2/RS485" library="pinhead_smd" deviceset="PINH1X01" device="">
+<attribute name="DIGIKEY" value="WM14724-ND"/>
+<attribute name="FARNELL" value="1756963"/>
+<attribute name="MOUSER" value="538-90120-0761"/>
+<attribute name="RS" value="863-2706 "/>
+</part>
+<part name="IO3/WAKEUP" library="pinhead_smd" deviceset="PINH1X01" device="">
+<attribute name="DIGIKEY" value="WM14724-ND"/>
+<attribute name="FARNELL" value="1756963"/>
+<attribute name="MOUSER" value="538-90120-0761"/>
+<attribute name="RS" value="863-2706 "/>
+</part>
+<part name="IO4" library="pinhead_smd" deviceset="PINH1X01" device="">
+<attribute name="DIGIKEY" value="WM14724-ND"/>
+<attribute name="FARNELL" value="1756963"/>
+<attribute name="MOUSER" value="538-90120-0761"/>
+<attribute name="RS" value="863-2706 "/>
+</part>
+<part name="IO5" library="pinhead_smd" deviceset="PINH1X01" device="">
+<attribute name="DIGIKEY" value="WM14724-ND"/>
+<attribute name="FARNELL" value="1756963"/>
+<attribute name="MOUSER" value="538-90120-0761"/>
+<attribute name="RS" value="863-2706 "/>
+</part>
+<part name="IO6" library="pinhead_smd" deviceset="PINH1X01" device="">
+<attribute name="DIGIKEY" value="WM14724-ND"/>
+<attribute name="FARNELL" value="1756963"/>
+<attribute name="MOUSER" value="538-90120-0761"/>
+<attribute name="RS" value="863-2706 "/>
+</part>
+<part name="CHREN" library="pinhead_smd" deviceset="PINH1X01" device="">
+<attribute name="DIGIKEY" value="WM14724-ND"/>
+<attribute name="FARNELL" value="1756963"/>
+<attribute name="MOUSER" value="538-90120-0761"/>
+<attribute name="RS" value="863-2706 "/>
+</part>
+<part name="CHR0" library="pinhead_smd" deviceset="PINH1X01" device="">
+<attribute name="DIGIKEY" value="WM14724-ND"/>
+<attribute name="FARNELL" value="1756963"/>
+<attribute name="MOUSER" value="538-90120-0761"/>
+<attribute name="RS" value="863-2706 "/>
+</part>
+<part name="CHR1" library="pinhead_smd" deviceset="PINH1X01" device="">
+<attribute name="DIGIKEY" value="WM14724-ND"/>
+<attribute name="FARNELL" value="1756963"/>
+<attribute name="MOUSER" value="538-90120-0761"/>
+<attribute name="RS" value="863-2706 "/>
+</part>
+<part name="SUSPEND" library="pinhead_smd" deviceset="PINH1X01" device="">
+<attribute name="DIGIKEY" value="WM14724-ND"/>
+<attribute name="FARNELL" value="1756963"/>
+<attribute name="MOUSER" value="538-90120-0761"/>
+<attribute name="RS" value="863-2706 "/>
+</part>
+<part name="VUSB" library="pinhead" deviceset="PINHD-1X2" device="">
+<attribute name="DIGIKEY" value="3M9457-02-ND"/>
+<attribute name="FARNELL" value="2396217"/>
+<attribute name="MOUSER" value="517-9611026404AR"/>
+<attribute name="RS" value="827-7775 "/>
+</part>
+<part name="USB" library="pinhead" deviceset="PINHD-1X5" device="">
+<attribute name="DIGIKEY" value="732-5318-ND"/>
+<attribute name="FARNELL" value="2356157"/>
+<attribute name="MOUSER" value="710-61300511121"/>
+<attribute name="RS" value="828-1597"/>
+</part>
 <part name="D2" library="diode" deviceset="SHOTTKY" device="-SOD123" value="skl34"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
-<part name="R36" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="470R"/>
+<part name="R36" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="470R">
+<attribute name="DIGIKEY" value="311-470HRCT-ND"/>
+<attribute name="FARNELL" value="9238441"/>
+<attribute name="MOUSER" value="603-RC0603FR-07470RL"/>
+<attribute name="RS" value="504-7341"/>
+</part>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="VCC5" library="supply1" deviceset="VCCIO" device=""/>
 <part name="VCC6" library="supply1" deviceset="VCCIO" device=""/>
 <part name="VCC7" library="supply1" deviceset="VCCIO" device=""/>
 <part name="VCC8" library="supply1" deviceset="VCCIO" device=""/>
-<part name="LED_3V3_USB" library="led" deviceset="LED" device="CHIPLED_0603" value="green"/>
+<part name="LED_3V3_USB" library="led" deviceset="LED" device="CHIPLED_0603" value="green">
+<attribute name="DIGIKEY" value="872-1799"/>
+<attribute name="FARNELL" value="2293494"/>
+<attribute name="MOUSER" value="859-LTST-C191KGKT"/>
+<attribute name="RS" value="872-1799"/>
+</part>
 <part name="VCC9" library="supply1" deviceset="VCCIO" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="RXD" library="pinhead_smd" deviceset="PINH1X01" device=""/>
-<part name="TXD" library="pinhead_smd" deviceset="PINH1X01" device=""/>
+<part name="RXD" library="pinhead_smd" deviceset="PINH1X01" device="">
+<attribute name="DIGIKEY" value="WM14724-ND"/>
+<attribute name="FARNELL" value="1756963"/>
+<attribute name="MOUSER" value="538-90120-0761"/>
+<attribute name="RS" value="863-2706 "/>
+</part>
+<part name="TXD" library="pinhead_smd" deviceset="PINH1X01" device="">
+<attribute name="DIGIKEY" value="WM14724-ND"/>
+<attribute name="FARNELL" value="1756963"/>
+<attribute name="MOUSER" value="538-90120-0761"/>
+<attribute name="RS" value="863-2706 "/>
+</part>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="VCC" library="pinhead" deviceset="PINHD-2X3" device=""/>
+<part name="VCC" library="pinhead" deviceset="PINHD-2X3" device="">
+<attribute name="DIGIKEY" value="A122915-ND"/>
+<attribute name="FARNELL" value="1248159"/>
+<attribute name="MOUSER" value="571-826942-3"/>
+<attribute name="RS" value="360-6443"/>
+</part>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="R37" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="100k"/>
-<part name="JP36" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="R37" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="100k">
+<attribute name="DIGIKEY" value="311-100KHRCT-ND"/>
+<attribute name="FARNELL" value="9238727"/>
+<attribute name="MOUSER" value="603-RC0603FR-07100KL"/>
+<attribute name="RS" value="504-8940"/>
+</part>
+<part name="JP36" library="pinhead" deviceset="PINHD-1X2" device="">
+<attribute name="DIGIKEY" value="3M9457-02-ND"/>
+<attribute name="FARNELL" value="2396217"/>
+<attribute name="MOUSER" value="517-9611026404AR"/>
+<attribute name="RS" value="827-7775 "/>
+</part>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
-<part name="R38" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="470R"/>
-<part name="R39" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="680R"/>
-<part name="R40" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="470R"/>
-<part name="R41" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="680R"/>
-<part name="R42" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="470R"/>
-<part name="R43" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="680R"/>
-<part name="LED5P" library="led" deviceset="LED" device="CHIPLED_0603" value="green"/>
-<part name="LED5N" library="led" deviceset="LED" device="CHIPLED_0603" value="red"/>
-<part name="LED3P" library="led" deviceset="LED" device="CHIPLED_0603" value="green"/>
-<part name="LED3N" library="led" deviceset="LED" device="CHIPLED_0603" value="red"/>
-<part name="LED1P" library="led" deviceset="LED" device="CHIPLED_0603" value="green"/>
-<part name="LED1N" library="led" deviceset="LED" device="CHIPLED_0603" value="red"/>
+<part name="R38" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="470R">
+<attribute name="DIGIKEY" value="311-470HRCT-ND"/>
+<attribute name="FARNELL" value="9238441"/>
+<attribute name="MOUSER" value="603-RC0603FR-07470RL"/>
+<attribute name="RS" value="504-7341"/>
+</part>
+<part name="R39" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="680R">
+<attribute name="DIGIKEY" value="311-680HRCT-ND"/>
+<attribute name="FARNELL" value="9238468"/>
+<attribute name="MOUSER" value="603-RC0603FR-13680RL"/>
+<attribute name="RS" value=""/>
+</part>
+<part name="R40" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="470R">
+<attribute name="DIGIKEY" value="311-470HRCT-ND"/>
+<attribute name="FARNELL" value="9238441"/>
+<attribute name="MOUSER" value="603-RC0603FR-07470RL"/>
+<attribute name="RS" value="504-7341"/>
+</part>
+<part name="R41" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="680R">
+<attribute name="DIGIKEY" value="311-680HRCT-ND"/>
+<attribute name="FARNELL" value="9238468"/>
+<attribute name="MOUSER" value="603-RC0603FR-13680RL"/>
+<attribute name="RS" value=""/>
+</part>
+<part name="R42" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="470R">
+<attribute name="DIGIKEY" value="311-470HRCT-ND"/>
+<attribute name="FARNELL" value="9238441"/>
+<attribute name="MOUSER" value="603-RC0603FR-07470RL"/>
+<attribute name="RS" value="504-7341"/>
+</part>
+<part name="R43" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="680R">
+<attribute name="DIGIKEY" value="311-680HRCT-ND"/>
+<attribute name="FARNELL" value="9238468"/>
+<attribute name="MOUSER" value="603-RC0603FR-13680RL"/>
+<attribute name="RS" value=""/>
+</part>
+<part name="LED5P" library="led" deviceset="LED" device="CHIPLED_0603" value="green">
+<attribute name="DIGIKEY" value="872-1799"/>
+<attribute name="FARNELL" value="2293494"/>
+<attribute name="MOUSER" value="859-LTST-C191KGKT"/>
+<attribute name="RS" value="872-1799"/>
+</part>
+<part name="LED5N" library="led" deviceset="LED" device="CHIPLED_0603" value="red">
+<attribute name="DIGIKEY" value="160-1447-2-ND"/>
+<attribute name="FARNELL" value="2322071"/>
+<attribute name="MOUSER" value="859-LTST-C191KRKT"/>
+<attribute name="RS" value="127-8415"/>
+</part>
+<part name="LED3P" library="led" deviceset="LED" device="CHIPLED_0603" value="green">
+<attribute name="DIGIKEY" value="872-1799"/>
+<attribute name="FARNELL" value="2293494"/>
+<attribute name="MOUSER" value="859-LTST-C191KGKT"/>
+<attribute name="RS" value="872-1799"/>
+</part>
+<part name="LED3N" library="led" deviceset="LED" device="CHIPLED_0603" value="red">
+<attribute name="DIGIKEY" value="160-1447-2-ND"/>
+<attribute name="FARNELL" value="2322071"/>
+<attribute name="MOUSER" value="859-LTST-C191KRKT"/>
+<attribute name="RS" value="127-8415"/>
+</part>
+<part name="LED1P" library="led" deviceset="LED" device="CHIPLED_0603" value="green">
+<attribute name="DIGIKEY" value="872-1799"/>
+<attribute name="FARNELL" value="2293494"/>
+<attribute name="MOUSER" value="859-LTST-C191KGKT"/>
+<attribute name="RS" value="872-1799"/>
+</part>
+<part name="LED1N" library="led" deviceset="LED" device="CHIPLED_0603" value="red">
+<attribute name="DIGIKEY" value="160-1447-2-ND"/>
+<attribute name="FARNELL" value="2322071"/>
+<attribute name="MOUSER" value="859-LTST-C191KRKT"/>
+<attribute name="RS" value="127-8415"/>
+</part>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
-<part name="R44" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="470R"/>
-<part name="R45" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="680R"/>
-<part name="R46" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="470R"/>
-<part name="R47" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="680R"/>
-<part name="R48" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="470R"/>
-<part name="R49" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="680R"/>
-<part name="LED4P" library="led" deviceset="LED" device="CHIPLED_0603" value="green"/>
-<part name="LED4N" library="led" deviceset="LED" device="CHIPLED_0603" value="red"/>
-<part name="LED2P" library="led" deviceset="LED" device="CHIPLED_0603" value="green"/>
-<part name="LED2N" library="led" deviceset="LED" device="CHIPLED_0603" value="red"/>
-<part name="LED0P" library="led" deviceset="LED" device="CHIPLED_0603" value="green"/>
-<part name="LED0N" library="led" deviceset="LED" device="CHIPLED_0603" value="red"/>
+<part name="R44" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="470R">
+<attribute name="DIGIKEY" value="311-470HRCT-ND"/>
+<attribute name="FARNELL" value="9238441"/>
+<attribute name="MOUSER" value="603-RC0603FR-07470RL"/>
+<attribute name="RS" value="504-7341"/>
+</part>
+<part name="R45" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="680R">
+<attribute name="DIGIKEY" value="311-680HRCT-ND"/>
+<attribute name="FARNELL" value="9238468"/>
+<attribute name="MOUSER" value="603-RC0603FR-13680RL"/>
+<attribute name="RS" value=""/>
+</part>
+<part name="R46" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="470R">
+<attribute name="DIGIKEY" value="311-470HRCT-ND"/>
+<attribute name="FARNELL" value="9238441"/>
+<attribute name="MOUSER" value="603-RC0603FR-07470RL"/>
+<attribute name="RS" value="504-7341"/>
+</part>
+<part name="R47" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="680R">
+<attribute name="DIGIKEY" value="311-680HRCT-ND"/>
+<attribute name="FARNELL" value="9238468"/>
+<attribute name="MOUSER" value="603-RC0603FR-13680RL"/>
+<attribute name="RS" value=""/>
+</part>
+<part name="R48" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="470R">
+<attribute name="DIGIKEY" value="311-470HRCT-ND"/>
+<attribute name="FARNELL" value="9238441"/>
+<attribute name="MOUSER" value="603-RC0603FR-07470RL"/>
+<attribute name="RS" value="504-7341"/>
+</part>
+<part name="R49" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="680R">
+<attribute name="DIGIKEY" value="311-680HRCT-ND"/>
+<attribute name="FARNELL" value="9238468"/>
+<attribute name="MOUSER" value="603-RC0603FR-13680RL"/>
+<attribute name="RS" value=""/>
+</part>
+<part name="LED4P" library="led" deviceset="LED" device="CHIPLED_0603" value="green">
+<attribute name="DIGIKEY" value="872-1799"/>
+<attribute name="FARNELL" value="2293494"/>
+<attribute name="MOUSER" value="859-LTST-C191KGKT"/>
+<attribute name="RS" value="872-1799"/>
+</part>
+<part name="LED4N" library="led" deviceset="LED" device="CHIPLED_0603" value="red">
+<attribute name="DIGIKEY" value="160-1447-2-ND"/>
+<attribute name="FARNELL" value="2322071"/>
+<attribute name="MOUSER" value="859-LTST-C191KRKT"/>
+<attribute name="RS" value="127-8415"/>
+</part>
+<part name="LED2P" library="led" deviceset="LED" device="CHIPLED_0603" value="green">
+<attribute name="DIGIKEY" value="872-1799"/>
+<attribute name="FARNELL" value="2293494"/>
+<attribute name="MOUSER" value="859-LTST-C191KGKT"/>
+<attribute name="RS" value="872-1799"/>
+</part>
+<part name="LED2N" library="led" deviceset="LED" device="CHIPLED_0603" value="red">
+<attribute name="DIGIKEY" value="160-1447-2-ND"/>
+<attribute name="FARNELL" value="2322071"/>
+<attribute name="MOUSER" value="859-LTST-C191KRKT"/>
+<attribute name="RS" value="127-8415"/>
+</part>
+<part name="LED0P" library="led" deviceset="LED" device="CHIPLED_0603" value="green">
+<attribute name="DIGIKEY" value="872-1799"/>
+<attribute name="FARNELL" value="2293494"/>
+<attribute name="MOUSER" value="859-LTST-C191KGKT"/>
+<attribute name="RS" value="872-1799"/>
+</part>
+<part name="LED0N" library="led" deviceset="LED" device="CHIPLED_0603" value="red">
+<attribute name="DIGIKEY" value="160-1447-2-ND"/>
+<attribute name="FARNELL" value="2322071"/>
+<attribute name="MOUSER" value="859-LTST-C191KRKT"/>
+<attribute name="RS" value="127-8415"/>
+</part>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="+3V13" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="LEDS" library="pinhead" deviceset="PINHD-2X3" device=""/>
-<part name="VCCIO" library="pinhead" deviceset="PINHD-2X3" device=""/>
-<part name="B2" library="TACTM-35N-F" deviceset="TACTM-35N-F" device=""/>
-<part name="B1" library="TACTM-35N-F" deviceset="TACTM-35N-F" device=""/>
-<part name="JP38" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="LEDS" library="pinhead" deviceset="PINHD-2X3" device="">
+<attribute name="DIGIKEY" value="A122915-ND"/>
+<attribute name="FARNELL" value="1248159"/>
+<attribute name="MOUSER" value="571-826942-3"/>
+<attribute name="RS" value="360-6443"/>
+</part>
+<part name="VCCIO" library="pinhead" deviceset="PINHD-2X3" device="">
+<attribute name="DIGIKEY" value="A122915-ND"/>
+<attribute name="FARNELL" value="1248159"/>
+<attribute name="MOUSER" value="571-826942-3"/>
+<attribute name="RS" value="360-6443"/>
+</part>
+<part name="B2" library="TACTM-35N-F" deviceset="TACTM-35N-F" device="">
+<attribute name="DIGIKEY" value="CKN1574TR-ND"/>
+<attribute name="FARNELL" value="2079520"/>
+<attribute name="MOUSER" value="611-PTS635SL43SMTRLF"/>
+<attribute name="RS" value="135-9609"/>
+</part>
+<part name="B1" library="TACTM-35N-F" deviceset="TACTM-35N-F" device="">
+<attribute name="DIGIKEY" value="CKN1574TR-ND"/>
+<attribute name="FARNELL" value="2079520"/>
+<attribute name="MOUSER" value="611-PTS635SL43SMTRLF"/>
+<attribute name="RS" value="135-9609"/>
+</part>
+<part name="JP38" library="pinhead" deviceset="PINHD-1X2" device="">
+<attribute name="DIGIKEY" value="3M9457-02-ND"/>
+<attribute name="FARNELL" value="2396217"/>
+<attribute name="MOUSER" value="517-9611026404AR"/>
+<attribute name="RS" value="827-7775 "/>
+</part>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
-<part name="C6" library="rcl_upravena" deviceset="C-EU" device="C0402" value="100n/16V"/>
-<part name="C11" library="rcl_upravena" deviceset="C-EU" device="C0402" value="100n/16V"/>
-<part name="R50" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="R51" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="C6" library="rcl_upravena" deviceset="C-EU" device="C0402" value="100n/16V">
+<attribute name="DIGIKEY" value="732-7478-1-ND"/>
+<attribute name="FARNELL" value="2533923RL"/>
+<attribute name="MOUSER" value="710-885012105001"/>
+<attribute name="RS" value="839-1622"/>
+</part>
+<part name="C11" library="rcl_upravena" deviceset="C-EU" device="C0402" value="100n/16V">
+<attribute name="DIGIKEY" value="732-7478-1-ND"/>
+<attribute name="FARNELL" value="2533923RL"/>
+<attribute name="MOUSER" value="710-885012105001"/>
+<attribute name="RS" value="839-1622"/>
+</part>
+<part name="R50" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="10k">
+<attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
+<attribute name="FARNELL" value="9238603"/>
+<attribute name="MOUSER" value="603-RC0603FR-0710KL"/>
+<attribute name="RS" value="504-8934"/>
+</part>
+<part name="R51" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="10k">
+<attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
+<attribute name="FARNELL" value="9238603"/>
+<attribute name="MOUSER" value="603-RC0603FR-0710KL"/>
+<attribute name="RS" value="504-8934"/>
+</part>
 <part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
 <part name="FRAME2" library="frames" deviceset="A3L-LOC" device=""/>
-<part name="R52" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="C12" library="rcl_upravena" deviceset="C-EU" device="C0603" value="1n/50V"/>
+<part name="R52" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="10k">
+<attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
+<attribute name="FARNELL" value="9238603"/>
+<attribute name="MOUSER" value="603-RC0603FR-0710KL"/>
+<attribute name="RS" value="504-8934"/>
+</part>
+<part name="C12" library="rcl_upravena" deviceset="C-EU" device="C0603" value="1n/50V">
+<attribute name="DIGIKEY" value="399-1082-1-ND"/>
+<attribute name="FARNELL" value="1414608"/>
+<attribute name="MOUSER" value="80-C0603C102K5R"/>
+<attribute name="RS" value="264-4551"/>
+</part>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="+3V16" library="supply1" deviceset="+3V3" device=""/>
 </parts>
@@ -19264,30 +19941,57 @@ RobotikaBrno.cz
 Robotarna</text>
 </plain>
 <instances>
-<instance part="U1" gate="G$1" x="86.36" y="139.7"/>
+<instance part="U1" gate="G$1" x="86.36" y="139.7">
+<attribute name="DIGIKEY" x="86.36" y="139.7" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="+3V1" gate="G$1" x="63.5" y="170.18"/>
 <instance part="GND1" gate="1" x="66.04" y="111.76"/>
 <instance part="GND2" gate="1" x="106.68" y="111.76"/>
-<instance part="U2" gate="G$1" x="327.66" y="236.22"/>
+<instance part="U2" gate="G$1" x="327.66" y="236.22">
+<attribute name="DIGIKEY" x="327.66" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="327.66" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="327.66" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="327.66" y="236.22" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="X1" gate="G$1" x="25.4" y="210.82" smashed="yes" rot="MR0">
 <attribute name="NAME" x="25.4" y="207.264" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="14.224" y="203.2" size="1.778" layer="96" rot="MR90"/>
+<attribute name="DIGIKEY" x="25.4" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="FARNELL" x="25.4" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MOUSER" x="25.4" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="RS" x="25.4" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="T1" gate="G$1" x="241.3" y="220.98" smashed="yes">
 <attribute name="NAME" x="246.38" y="220.98" size="1.778" layer="95"/>
 <attribute name="VALUE" x="246.38" y="218.44" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="241.3" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="241.3" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="241.3" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="241.3" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="T2" gate="G$1" x="241.3" y="203.2" smashed="yes" rot="MR180">
 <attribute name="NAME" x="246.38" y="205.74" size="1.778" layer="95"/>
 <attribute name="VALUE" x="246.38" y="203.2" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="241.3" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="241.3" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="241.3" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="241.3" y="203.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C1" gate="G$1" x="81.28" y="190.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="79.756" y="190.881" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="78.359" y="188.976" size="1.778" layer="96" rot="MR270"/>
+<attribute name="DIGIKEY" x="81.28" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="81.28" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="81.28" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="81.28" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C3" gate="G$1" x="48.26" y="190.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="46.736" y="190.881" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="45.339" y="188.976" size="1.778" layer="96" rot="MR270"/>
+<attribute name="DIGIKEY" x="48.26" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="48.26" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="48.26" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="48.26" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND3" gate="1" x="40.64" y="180.34"/>
 <instance part="GND5" gate="1" x="81.28" y="180.34"/>
@@ -19295,166 +19999,381 @@ Robotarna</text>
 <instance part="LED1" gate="G$1" x="154.94" y="210.82" smashed="yes" rot="R270">
 <attribute name="NAME" x="148.844" y="203.454" size="1.778" layer="95"/>
 <attribute name="VALUE" x="156.464" y="203.835" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="154.94" y="210.82" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="154.94" y="210.82" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="154.94" y="210.82" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="154.94" y="210.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED2" gate="G$1" x="154.94" y="208.28" smashed="yes" rot="R270">
 <attribute name="NAME" x="148.844" y="200.914" size="1.778" layer="95"/>
 <attribute name="VALUE" x="156.464" y="201.295" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="154.94" y="208.28" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="154.94" y="208.28" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="154.94" y="208.28" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="154.94" y="208.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED3" gate="G$1" x="63.5" y="226.06" smashed="yes" rot="MR270">
 <attribute name="NAME" x="58.928" y="222.504" size="1.778" layer="95"/>
 <attribute name="VALUE" x="66.548" y="222.885" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="63.5" y="226.06" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="FARNELL" x="63.5" y="226.06" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MOUSER" x="63.5" y="226.06" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="RS" x="63.5" y="226.06" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="R1" gate="G$1" x="142.24" y="210.82" smashed="yes" rot="MR0">
 <attribute name="NAME" x="147.066" y="203.4286" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="141.986" y="203.708" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="142.24" y="210.82" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="142.24" y="210.82" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="142.24" y="210.82" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="142.24" y="210.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="142.24" y="208.28" smashed="yes" rot="MR0">
 <attribute name="NAME" x="147.066" y="200.8886" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="141.986" y="201.168" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="142.24" y="208.28" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="142.24" y="208.28" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="142.24" y="208.28" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="142.24" y="208.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R3" gate="G$1" x="76.2" y="226.06" smashed="yes" rot="MR0">
 <attribute name="NAME" x="74.93" y="222.4786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="80.01" y="222.758" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="76.2" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="76.2" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="76.2" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="76.2" y="226.06" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R4" gate="G$1" x="231.14" y="220.98"/>
-<instance part="R5" gate="G$1" x="231.14" y="203.2"/>
+<instance part="R4" gate="G$1" x="231.14" y="220.98">
+<attribute name="DIGIKEY" x="231.14" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="231.14" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="231.14" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="231.14" y="220.98" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R5" gate="G$1" x="231.14" y="203.2">
+<attribute name="DIGIKEY" x="231.14" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="231.14" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="231.14" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="231.14" y="203.2" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+3" gate="1" x="248.92" y="241.3" rot="MR270"/>
 <instance part="+3V7" gate="G$1" x="363.22" y="241.3" rot="R270"/>
 <instance part="GND10" gate="1" x="312.42" y="226.06"/>
-<instance part="C4" gate="G$1" x="281.94" y="233.68" rot="MR0"/>
-<instance part="C5" gate="G$1" x="355.6" y="236.22"/>
+<instance part="C4" gate="G$1" x="281.94" y="233.68" rot="MR0">
+<attribute name="DIGIKEY" x="281.94" y="233.68" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="281.94" y="233.68" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="281.94" y="233.68" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="281.94" y="233.68" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C5" gate="G$1" x="355.6" y="236.22">
+<attribute name="DIGIKEY" x="355.6" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="355.6" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="355.6" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="355.6" y="236.22" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND11" gate="1" x="281.94" y="223.52"/>
 <instance part="GND12" gate="1" x="355.6" y="226.06"/>
 <instance part="R11" gate="G$1" x="139.7" y="233.68" smashed="yes" rot="MR180">
 <attribute name="NAME" x="158.75" y="234.7214" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="163.83" y="234.696" size="1.778" layer="96" rot="MR180"/>
+<attribute name="DIGIKEY" x="139.7" y="233.68" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="139.7" y="233.68" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="139.7" y="233.68" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="139.7" y="233.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R12" gate="G$1" x="139.7" y="231.14" smashed="yes" rot="MR180">
 <attribute name="NAME" x="158.75" y="232.1814" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="163.83" y="232.156" size="1.778" layer="96" rot="MR180"/>
+<attribute name="DIGIKEY" x="139.7" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="139.7" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="139.7" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="139.7" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="NC3" gate="G$1" x="345.44" y="231.14"/>
-<instance part="LED_3V3" gate="G$1" x="325.12" y="58.42"/>
-<instance part="R26" gate="G$1" x="325.12" y="45.72" rot="R90"/>
+<instance part="LED_3V3" gate="G$1" x="325.12" y="58.42">
+<attribute name="DIGIKEY" x="325.12" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="325.12" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="325.12" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="325.12" y="58.42" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R26" gate="G$1" x="325.12" y="45.72" rot="R90">
+<attribute name="DIGIKEY" x="325.12" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="325.12" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="325.12" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="325.12" y="45.72" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND18" gate="1" x="325.12" y="35.56"/>
 <instance part="+3V5" gate="G$1" x="325.12" y="66.04"/>
 <instance part="C7" gate="G$1" x="55.88" y="190.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="54.356" y="190.881" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="52.959" y="188.976" size="1.778" layer="96" rot="MR270"/>
+<attribute name="DIGIKEY" x="55.88" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="55.88" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="55.88" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="55.88" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R6" gate="G$1" x="200.66" y="162.56" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="163.0426" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="163.322" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R7" gate="G$1" x="200.66" y="160.02" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="160.5026" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="160.782" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="200.66" y="157.48" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="157.9626" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="158.242" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="200.66" y="154.94" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="155.4226" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="155.702" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R10" gate="G$1" x="200.66" y="152.4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="152.8826" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="153.162" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R13" gate="G$1" x="200.66" y="149.86" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="150.3426" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="150.622" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R14" gate="G$1" x="200.66" y="147.32" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="147.8026" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="148.082" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R15" gate="G$1" x="200.66" y="144.78" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="145.2626" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="145.542" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R16" gate="G$1" x="200.66" y="142.24" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="142.7226" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="143.002" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R17" gate="G$1" x="200.66" y="139.7" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="140.1826" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="140.462" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R18" gate="G$1" x="200.66" y="137.16" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="137.6426" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="137.922" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="JP2" gate="A" x="218.44" y="152.4"/>
-<instance part="JP3" gate="A" x="238.76" y="152.4" rot="MR0"/>
-<instance part="PWR_1" gate="A" x="256.54" y="152.4" rot="MR0"/>
+<instance part="JP2" gate="A" x="218.44" y="152.4">
+<attribute name="DIGIKEY" x="218.44" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="218.44" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="218.44" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="218.44" y="152.4" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP3" gate="A" x="238.76" y="152.4" rot="MR0">
+<attribute name="DIGIKEY" x="238.76" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="238.76" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="238.76" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="238.76" y="152.4" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="PWR_1" gate="A" x="256.54" y="152.4" rot="MR0">
+<attribute name="DIGIKEY" x="256.54" y="152.4" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="FARNELL" x="256.54" y="152.4" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MOUSER" x="256.54" y="152.4" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="RS" x="256.54" y="152.4" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
 <instance part="R20" gate="G$1" x="200.66" y="121.92" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="122.4026" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="122.682" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R21" gate="G$1" x="200.66" y="119.38" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="119.8626" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="120.142" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R23" gate="G$1" x="200.66" y="114.3" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="114.7826" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="115.062" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R24" gate="G$1" x="200.66" y="111.76" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="112.2426" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="112.522" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R25" gate="G$1" x="200.66" y="109.22" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="109.7026" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="109.982" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R27" gate="G$1" x="200.66" y="106.68" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="107.1626" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="107.442" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R28" gate="G$1" x="200.66" y="104.14" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="104.6226" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="104.902" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R29" gate="G$1" x="200.66" y="101.6" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="102.0826" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="102.362" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="101.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R30" gate="G$1" x="200.66" y="99.06" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="99.5426" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="99.822" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R31" gate="G$1" x="200.66" y="96.52" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="97.0026" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="97.282" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R32" gate="G$1" x="200.66" y="93.98" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="94.4626" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="94.742" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="JP6" gate="A" x="218.44" y="109.22"/>
-<instance part="JP7" gate="A" x="236.22" y="109.22"/>
-<instance part="PWR_2" gate="A" x="256.54" y="109.22" rot="MR0"/>
+<instance part="JP6" gate="A" x="218.44" y="109.22">
+<attribute name="DIGIKEY" x="218.44" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="218.44" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="218.44" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="218.44" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP7" gate="A" x="236.22" y="109.22">
+<attribute name="DIGIKEY" x="236.22" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="236.22" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="236.22" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="236.22" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="PWR_2" gate="A" x="256.54" y="109.22" rot="MR0">
+<attribute name="DIGIKEY" x="256.54" y="109.22" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="FARNELL" x="256.54" y="109.22" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MOUSER" x="256.54" y="109.22" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="RS" x="256.54" y="109.22" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
 <instance part="R22" gate="G$1" x="200.66" y="124.46" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="124.9426" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="125.222" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R33" gate="G$1" x="200.66" y="116.84" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="117.3226" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="117.602" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R34" gate="G$1" x="200.66" y="91.44" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="91.9226" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="92.202" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U3" gate="G$1" x="81.28" y="73.66" rot="R90"/>
-<instance part="JP1" gate="G$1" x="182.88" y="152.4"/>
-<instance part="JP5" gate="A" x="182.88" y="109.22"/>
-<instance part="EN" gate="G$1" x="182.88" y="175.26"/>
+<instance part="JP1" gate="G$1" x="182.88" y="152.4">
+<attribute name="DIGIKEY" x="182.88" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="182.88" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="182.88" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="182.88" y="152.4" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP5" gate="A" x="182.88" y="109.22">
+<attribute name="DIGIKEY" x="182.88" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="182.88" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="182.88" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="182.88" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="EN" gate="G$1" x="182.88" y="175.26">
+<attribute name="DIGIKEY" x="182.88" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="182.88" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="182.88" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="182.88" y="175.26" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R19" gate="G$1" x="200.66" y="165.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.596" y="165.5826" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.296" y="165.862" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="200.66" y="165.1" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="FARNELL" x="200.66" y="165.1" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MOUSER" x="200.66" y="165.1" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="RS" x="200.66" y="165.1" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND8" gate="1" x="165.1" y="175.26" rot="R270"/>
 <instance part="P+4" gate="1" x="144.78" y="71.12" rot="MR90"/>
@@ -19463,55 +20382,129 @@ Robotarna</text>
 <instance part="GND13" gate="1" x="40.64" y="55.88" rot="R270"/>
 <instance part="GND14" gate="1" x="241.3" y="180.34" rot="R180"/>
 <instance part="+3V8" gate="G$1" x="251.46" y="177.8"/>
-<instance part="PWR" gate="-1" x="332.74" y="208.28" rot="MR0"/>
+<instance part="PWR" gate="-1" x="332.74" y="208.28" rot="MR0">
+<attribute name="DIGIKEY" x="332.74" y="208.28" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="FARNELL" x="332.74" y="208.28" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MOUSER" x="332.74" y="208.28" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="RS" x="332.74" y="208.28" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
 <instance part="PWR" gate="-2" x="332.74" y="203.2" rot="MR0"/>
 <instance part="D5" gate="G$1" x="307.34" y="185.42"/>
 <instance part="GND36" gate="1" x="337.82" y="162.56"/>
-<instance part="IC2" gate="1" x="337.82" y="185.42"/>
-<instance part="C20" gate="G$1" x="350.52" y="177.8"/>
-<instance part="C21" gate="G$1" x="325.12" y="177.8"/>
+<instance part="IC2" gate="1" x="337.82" y="185.42">
+<attribute name="DIGIKEY" x="337.82" y="185.42" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="337.82" y="185.42" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="337.82" y="185.42" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="337.82" y="185.42" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C20" gate="G$1" x="350.52" y="177.8">
+<attribute name="DIGIKEY" x="350.52" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="350.52" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="350.52" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="350.52" y="177.8" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C21" gate="G$1" x="325.12" y="177.8">
+<attribute name="DIGIKEY" x="325.12" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="325.12" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="325.12" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="325.12" y="177.8" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+17" gate="1" x="360.68" y="185.42" rot="R270"/>
 <instance part="C70" gate="G$1" x="350.52" y="71.12" smashed="yes" rot="MR270">
 <attribute name="NAME" x="350.139" y="69.596" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="352.044" y="68.199" size="1.778" layer="96" rot="MR180"/>
+<attribute name="DIGIKEY" x="350.52" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="350.52" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="350.52" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="350.52" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C67" gate="G$1" x="350.52" y="142.24" smashed="yes" rot="MR270">
 <attribute name="NAME" x="350.139" y="140.716" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="352.044" y="139.319" size="1.778" layer="96" rot="MR180"/>
+<attribute name="DIGIKEY" x="350.52" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="350.52" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="350.52" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="350.52" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+5" gate="VCC" x="299.72" y="185.42" rot="R90"/>
 <instance part="P+6" gate="VCC" x="342.9" y="208.28" rot="R270"/>
 <instance part="GND16" gate="1" x="342.9" y="203.2" rot="R90"/>
 <instance part="P+7" gate="1" x="259.08" y="177.8" rot="MR0"/>
-<instance part="C37" gate="G$1" x="269.24" y="233.68" rot="MR0"/>
+<instance part="C37" gate="G$1" x="269.24" y="233.68" rot="MR0">
+<attribute name="DIGIKEY" x="269.24" y="233.68" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="FARNELL" x="269.24" y="233.68" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MOUSER" x="269.24" y="233.68" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="RS" x="269.24" y="233.68" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
 <instance part="D1" gate="G$1" x="256.54" y="241.3"/>
 <instance part="P+8" gate="1" x="340.36" y="149.86"/>
 <instance part="GND15" gate="1" x="363.22" y="149.86" rot="R180"/>
-<instance part="JP11" gate="A" x="182.88" y="66.04"/>
-<instance part="SERVOS" gate="A" x="322.58" y="111.76"/>
-<instance part="+5V" gate="A" x="350.52" y="111.76"/>
+<instance part="JP11" gate="A" x="182.88" y="66.04">
+<attribute name="DIGIKEY" x="182.88" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="182.88" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="182.88" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="182.88" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SERVOS" gate="A" x="322.58" y="111.76">
+<attribute name="DIGIKEY" x="322.58" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="322.58" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="322.58" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="322.58" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="+5V" gate="A" x="350.52" y="111.76">
+<attribute name="DIGIKEY" x="350.52" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="350.52" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="350.52" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="350.52" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="NC28" gate="G$1" x="114.3" y="60.96"/>
 <instance part="C8" gate="G$1" x="350.52" y="132.08" smashed="yes" rot="MR270">
 <attribute name="NAME" x="350.139" y="130.556" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="352.044" y="129.159" size="1.778" layer="96" rot="MR180"/>
+<attribute name="DIGIKEY" x="350.52" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="350.52" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="350.52" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="350.52" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C9" gate="G$1" x="350.52" y="91.44" smashed="yes" rot="MR270">
 <attribute name="NAME" x="350.139" y="89.916" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="352.044" y="88.519" size="1.778" layer="96" rot="MR180"/>
+<attribute name="DIGIKEY" x="350.52" y="91.44" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="FARNELL" x="350.52" y="91.44" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MOUSER" x="350.52" y="91.44" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="RS" x="350.52" y="91.44" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="C10" gate="G$1" x="350.52" y="81.28" smashed="yes" rot="MR270">
 <attribute name="NAME" x="350.139" y="79.756" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="352.044" y="78.359" size="1.778" layer="96" rot="MR180"/>
+<attribute name="DIGIKEY" x="350.52" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="350.52" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="350.52" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="350.52" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V4" gate="G$1" x="137.16" y="68.58" rot="MR90"/>
 <instance part="P+9" gate="VCC" x="132.08" y="78.74" rot="MR90"/>
 <instance part="GND17" gate="1" x="172.72" y="50.8"/>
 <instance part="+3V9" gate="G$1" x="165.1" y="58.42" rot="R90"/>
-<instance part="IC3" gate="G$1" x="111.76" y="208.28"/>
-<instance part="R35" gate="G$1" x="66.04" y="233.68" rot="MR0"/>
+<instance part="IC3" gate="G$1" x="111.76" y="208.28">
+<attribute name="DIGIKEY" x="111.76" y="208.28" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="111.76" y="208.28" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="111.76" y="208.28" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="111.76" y="208.28" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R35" gate="G$1" x="66.04" y="233.68" rot="MR0">
+<attribute name="DIGIKEY" x="66.04" y="233.68" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="FARNELL" x="66.04" y="233.68" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MOUSER" x="66.04" y="233.68" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="RS" x="66.04" y="233.68" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
 <instance part="C2" gate="G$1" x="73.66" y="190.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="72.136" y="190.881" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="70.739" y="188.976" size="1.778" layer="96" rot="MR270"/>
+<attribute name="DIGIKEY" x="73.66" y="190.5" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="FARNELL" x="73.66" y="190.5" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MOUSER" x="73.66" y="190.5" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="RS" x="73.66" y="190.5" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND4" gate="1" x="73.66" y="180.34"/>
 <instance part="GND6" gate="1" x="55.88" y="180.34"/>
@@ -19520,76 +20513,270 @@ Robotarna</text>
 <instance part="VCC2" gate="G$1" x="167.64" y="210.82" rot="MR90"/>
 <instance part="VCC3" gate="G$1" x="55.88" y="226.06" rot="R90"/>
 <instance part="VCC4" gate="G$1" x="55.88" y="233.68" rot="R90"/>
-<instance part="!RESET" gate="G$1" x="88.9" y="241.3" rot="R270"/>
-<instance part="!SUSPEND" gate="G$1" x="86.36" y="241.3" rot="R270"/>
-<instance part="!RTS" gate="G$1" x="195.58" y="228.6" rot="R180"/>
-<instance part="!CTS" gate="G$1" x="195.58" y="226.06" rot="R180"/>
-<instance part="!DTR" gate="G$1" x="195.58" y="223.52" rot="R180"/>
-<instance part="!DSR" gate="G$1" x="195.58" y="220.98" rot="R180"/>
-<instance part="!DCD" gate="G$1" x="195.58" y="218.44" rot="R180"/>
-<instance part="RI/CLK" gate="G$1" x="195.58" y="215.9" rot="R180"/>
-<instance part="IO0/TXLED" gate="G$1" x="195.58" y="210.82" rot="R180"/>
-<instance part="IO1/RXLED" gate="G$1" x="195.58" y="208.28" rot="R180"/>
-<instance part="IO2/RS485" gate="G$1" x="195.58" y="205.74" rot="R180"/>
-<instance part="IO3/WAKEUP" gate="G$1" x="195.58" y="203.2" rot="R180"/>
-<instance part="IO4" gate="G$1" x="195.58" y="200.66" rot="R180"/>
-<instance part="IO5" gate="G$1" x="195.58" y="198.12" rot="R180"/>
-<instance part="IO6" gate="G$1" x="195.58" y="195.58" rot="R180"/>
-<instance part="CHREN" gate="G$1" x="195.58" y="190.5" rot="R180"/>
-<instance part="CHR0" gate="G$1" x="195.58" y="187.96" rot="R180"/>
-<instance part="CHR1" gate="G$1" x="195.58" y="185.42" rot="R180"/>
-<instance part="SUSPEND" gate="G$1" x="83.82" y="241.3" rot="R270"/>
-<instance part="VUSB" gate="G$1" x="25.4" y="190.5" rot="R270"/>
-<instance part="USB" gate="A" x="35.56" y="233.68" rot="R90"/>
+<instance part="!RESET" gate="G$1" x="88.9" y="241.3" rot="R270">
+<attribute name="DIGIKEY" x="88.9" y="241.3" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="88.9" y="241.3" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="88.9" y="241.3" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="88.9" y="241.3" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="!SUSPEND" gate="G$1" x="86.36" y="241.3" rot="R270">
+<attribute name="DIGIKEY" x="86.36" y="241.3" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="86.36" y="241.3" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="86.36" y="241.3" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="86.36" y="241.3" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="!RTS" gate="G$1" x="195.58" y="228.6" rot="R180">
+<attribute name="DIGIKEY" x="195.58" y="228.6" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="195.58" y="228.6" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="195.58" y="228.6" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="195.58" y="228.6" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="!CTS" gate="G$1" x="195.58" y="226.06" rot="R180">
+<attribute name="DIGIKEY" x="195.58" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="195.58" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="195.58" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="195.58" y="226.06" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="!DTR" gate="G$1" x="195.58" y="223.52" rot="R180">
+<attribute name="DIGIKEY" x="195.58" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="195.58" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="195.58" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="195.58" y="223.52" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="!DSR" gate="G$1" x="195.58" y="220.98" rot="R180">
+<attribute name="DIGIKEY" x="195.58" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="195.58" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="195.58" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="195.58" y="220.98" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="!DCD" gate="G$1" x="195.58" y="218.44" rot="R180">
+<attribute name="DIGIKEY" x="195.58" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="195.58" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="195.58" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="195.58" y="218.44" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="RI/CLK" gate="G$1" x="195.58" y="215.9" rot="R180">
+<attribute name="DIGIKEY" x="195.58" y="215.9" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="195.58" y="215.9" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="195.58" y="215.9" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="195.58" y="215.9" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="IO0/TXLED" gate="G$1" x="195.58" y="210.82" rot="R180">
+<attribute name="DIGIKEY" x="195.58" y="210.82" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="195.58" y="210.82" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="195.58" y="210.82" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="195.58" y="210.82" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="IO1/RXLED" gate="G$1" x="195.58" y="208.28" rot="R180">
+<attribute name="DIGIKEY" x="195.58" y="208.28" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="195.58" y="208.28" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="195.58" y="208.28" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="195.58" y="208.28" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="IO2/RS485" gate="G$1" x="195.58" y="205.74" rot="R180">
+<attribute name="DIGIKEY" x="195.58" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="195.58" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="195.58" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="195.58" y="205.74" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="IO3/WAKEUP" gate="G$1" x="195.58" y="203.2" rot="R180">
+<attribute name="DIGIKEY" x="195.58" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="195.58" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="195.58" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="195.58" y="203.2" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="IO4" gate="G$1" x="195.58" y="200.66" rot="R180">
+<attribute name="DIGIKEY" x="195.58" y="200.66" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="195.58" y="200.66" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="195.58" y="200.66" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="195.58" y="200.66" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="IO5" gate="G$1" x="195.58" y="198.12" rot="R180">
+<attribute name="DIGIKEY" x="195.58" y="198.12" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="195.58" y="198.12" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="195.58" y="198.12" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="195.58" y="198.12" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="IO6" gate="G$1" x="195.58" y="195.58" rot="R180">
+<attribute name="DIGIKEY" x="195.58" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="195.58" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="195.58" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="195.58" y="195.58" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="CHREN" gate="G$1" x="195.58" y="190.5" rot="R180">
+<attribute name="DIGIKEY" x="195.58" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="195.58" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="195.58" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="195.58" y="190.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="CHR0" gate="G$1" x="195.58" y="187.96" rot="R180">
+<attribute name="DIGIKEY" x="195.58" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="195.58" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="195.58" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="195.58" y="187.96" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="CHR1" gate="G$1" x="195.58" y="185.42" rot="R180">
+<attribute name="DIGIKEY" x="195.58" y="185.42" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="195.58" y="185.42" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="195.58" y="185.42" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="195.58" y="185.42" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SUSPEND" gate="G$1" x="83.82" y="241.3" rot="R270">
+<attribute name="DIGIKEY" x="83.82" y="241.3" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="83.82" y="241.3" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="83.82" y="241.3" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="83.82" y="241.3" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="VUSB" gate="G$1" x="25.4" y="190.5" rot="R270">
+<attribute name="DIGIKEY" x="25.4" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="25.4" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="25.4" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="25.4" y="190.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="USB" gate="A" x="35.56" y="233.68" rot="R90">
+<attribute name="DIGIKEY" x="35.56" y="233.68" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="FARNELL" x="35.56" y="233.68" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="35.56" y="233.68" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="RS" x="35.56" y="233.68" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="D2" gate="G$1" x="35.56" y="200.66" rot="R180"/>
 <instance part="P+1" gate="1" x="20.32" y="200.66" rot="MR270"/>
-<instance part="R36" gate="G$1" x="312.42" y="45.72" rot="R90"/>
+<instance part="R36" gate="G$1" x="312.42" y="45.72" rot="R90">
+<attribute name="DIGIKEY" x="312.42" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="312.42" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="312.42" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="312.42" y="45.72" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND20" gate="1" x="312.42" y="35.56"/>
 <instance part="VCC5" gate="G$1" x="63.5" y="195.58" rot="R90"/>
 <instance part="VCC6" gate="G$1" x="63.5" y="195.58" rot="R90"/>
 <instance part="VCC7" gate="G$1" x="63.5" y="195.58" rot="R90"/>
 <instance part="VCC8" gate="G$1" x="312.42" y="66.04"/>
-<instance part="LED_3V3_USB" gate="G$1" x="312.42" y="58.42"/>
+<instance part="LED_3V3_USB" gate="G$1" x="312.42" y="58.42">
+<attribute name="DIGIKEY" x="312.42" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="312.42" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="312.42" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="312.42" y="58.42" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="VCC9" gate="G$1" x="279.4" y="177.8"/>
 <instance part="GND21" gate="1" x="302.26" y="154.94" rot="MR0"/>
-<instance part="RXD" gate="G$1" x="195.58" y="231.14" rot="R180"/>
-<instance part="TXD" gate="G$1" x="195.58" y="233.68" rot="R180"/>
+<instance part="RXD" gate="G$1" x="195.58" y="231.14" rot="R180">
+<attribute name="DIGIKEY" x="195.58" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="195.58" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="195.58" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="195.58" y="231.14" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="TXD" gate="G$1" x="195.58" y="233.68" rot="R180">
+<attribute name="DIGIKEY" x="195.58" y="233.68" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="FARNELL" x="195.58" y="233.68" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="195.58" y="233.68" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="RS" x="195.58" y="233.68" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="P+2" gate="VCC" x="279.4" y="147.32"/>
 <instance part="GND22" gate="1" x="302.26" y="127" rot="MR0"/>
-<instance part="VCC" gate="A" x="292.1" y="137.16" rot="MR0"/>
+<instance part="VCC" gate="A" x="292.1" y="137.16" rot="MR0">
+<attribute name="DIGIKEY" x="292.1" y="137.16" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="FARNELL" x="292.1" y="137.16" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MOUSER" x="292.1" y="137.16" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="RS" x="292.1" y="137.16" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
 <instance part="GND23" gate="1" x="269.24" y="223.52"/>
-<instance part="R37" gate="G$1" x="297.18" y="231.14"/>
-<instance part="JP36" gate="G$1" x="294.64" y="220.98" rot="R180"/>
+<instance part="R37" gate="G$1" x="297.18" y="231.14">
+<attribute name="DIGIKEY" x="297.18" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="297.18" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="297.18" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="297.18" y="231.14" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP36" gate="G$1" x="294.64" y="220.98" rot="R180">
+<attribute name="DIGIKEY" x="294.64" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="294.64" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="294.64" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="294.64" y="220.98" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND24" gate="1" x="304.8" y="210.82"/>
-<instance part="R38" gate="G$1" x="213.36" y="71.12" rot="R180"/>
-<instance part="R39" gate="G$1" x="213.36" y="63.5" rot="R180"/>
-<instance part="R40" gate="G$1" x="213.36" y="55.88" rot="R180"/>
-<instance part="R41" gate="G$1" x="213.36" y="48.26" rot="R180"/>
-<instance part="R42" gate="G$1" x="213.36" y="40.64" rot="R180"/>
-<instance part="R43" gate="G$1" x="213.36" y="33.02" rot="R180"/>
+<instance part="R38" gate="G$1" x="213.36" y="71.12" rot="R180">
+<attribute name="DIGIKEY" x="213.36" y="71.12" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="FARNELL" x="213.36" y="71.12" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER" x="213.36" y="71.12" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="RS" x="213.36" y="71.12" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="R39" gate="G$1" x="213.36" y="63.5" rot="R180">
+<attribute name="DIGIKEY" x="213.36" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="213.36" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="213.36" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="213.36" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R40" gate="G$1" x="213.36" y="55.88" rot="R180">
+<attribute name="DIGIKEY" x="213.36" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="213.36" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="213.36" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="213.36" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R41" gate="G$1" x="213.36" y="48.26" rot="R180">
+<attribute name="DIGIKEY" x="213.36" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="213.36" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="213.36" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="213.36" y="48.26" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R42" gate="G$1" x="213.36" y="40.64" rot="R180">
+<attribute name="DIGIKEY" x="213.36" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="213.36" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="213.36" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="213.36" y="40.64" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R43" gate="G$1" x="213.36" y="33.02" rot="R180">
+<attribute name="DIGIKEY" x="213.36" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="213.36" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="213.36" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="213.36" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="LED5P" gate="G$1" x="203.2" y="71.12" smashed="yes" rot="R270">
 <attribute name="NAME" x="193.548" y="67.564" size="1.778" layer="95"/>
 <attribute name="VALUE" x="203.708" y="67.945" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="203.2" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="FARNELL" x="203.2" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MOUSER" x="203.2" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="RS" x="203.2" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="LED5N" gate="G$1" x="200.66" y="63.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="193.548" y="65.024" size="1.778" layer="95"/>
 <attribute name="VALUE" x="203.708" y="65.405" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="200.66" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="FARNELL" x="200.66" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER" x="200.66" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="RS" x="200.66" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="LED3P" gate="G$1" x="203.2" y="55.88" smashed="yes" rot="R270">
 <attribute name="NAME" x="193.548" y="52.324" size="1.778" layer="95"/>
 <attribute name="VALUE" x="203.708" y="52.705" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="203.2" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="203.2" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="203.2" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="203.2" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED3N" gate="G$1" x="200.66" y="48.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="193.548" y="49.784" size="1.778" layer="95"/>
 <attribute name="VALUE" x="203.708" y="50.165" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="200.66" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED1P" gate="G$1" x="203.2" y="40.64" smashed="yes" rot="R270">
 <attribute name="NAME" x="193.548" y="37.084" size="1.778" layer="95"/>
 <attribute name="VALUE" x="203.708" y="37.465" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="203.2" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="203.2" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="203.2" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="203.2" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED1N" gate="G$1" x="200.66" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="193.548" y="34.544" size="1.778" layer="95"/>
 <attribute name="VALUE" x="203.708" y="34.925" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="200.66" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="200.66" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="200.66" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="200.66" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V2" gate="G$1" x="193.04" y="63.5" rot="R90"/>
 <instance part="GND25" gate="1" x="193.04" y="71.12" rot="R270"/>
@@ -19597,35 +20784,89 @@ Robotarna</text>
 <instance part="GND26" gate="1" x="193.04" y="55.88" rot="R270"/>
 <instance part="+3V10" gate="G$1" x="193.04" y="33.02" rot="R90"/>
 <instance part="GND27" gate="1" x="193.04" y="40.64" rot="R270"/>
-<instance part="R44" gate="G$1" x="271.78" y="71.12" rot="MR180"/>
-<instance part="R45" gate="G$1" x="271.78" y="63.5" rot="MR180"/>
-<instance part="R46" gate="G$1" x="271.78" y="55.88" rot="MR180"/>
-<instance part="R47" gate="G$1" x="271.78" y="48.26" rot="MR180"/>
-<instance part="R48" gate="G$1" x="271.78" y="40.64" rot="MR180"/>
-<instance part="R49" gate="G$1" x="271.78" y="33.02" rot="MR180"/>
+<instance part="R44" gate="G$1" x="271.78" y="71.12" rot="MR180">
+<attribute name="DIGIKEY" x="271.78" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="271.78" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="271.78" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="271.78" y="71.12" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R45" gate="G$1" x="271.78" y="63.5" rot="MR180">
+<attribute name="DIGIKEY" x="271.78" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="271.78" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="271.78" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="271.78" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R46" gate="G$1" x="271.78" y="55.88" rot="MR180">
+<attribute name="DIGIKEY" x="271.78" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="271.78" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="271.78" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="271.78" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R47" gate="G$1" x="271.78" y="48.26" rot="MR180">
+<attribute name="DIGIKEY" x="271.78" y="48.26" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="FARNELL" x="271.78" y="48.26" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MOUSER" x="271.78" y="48.26" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="RS" x="271.78" y="48.26" size="1.778" layer="96" rot="MR180" display="off"/>
+</instance>
+<instance part="R48" gate="G$1" x="271.78" y="40.64" rot="MR180">
+<attribute name="DIGIKEY" x="271.78" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="271.78" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="271.78" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="271.78" y="40.64" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R49" gate="G$1" x="271.78" y="33.02" rot="MR180">
+<attribute name="DIGIKEY" x="271.78" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="271.78" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="271.78" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="271.78" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="LED4P" gate="G$1" x="281.94" y="71.12" smashed="yes" rot="MR270">
 <attribute name="NAME" x="291.592" y="67.564" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="281.432" y="67.945" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="281.94" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="281.94" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="281.94" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="281.94" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED4N" gate="G$1" x="284.48" y="63.5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="291.592" y="65.024" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="281.432" y="65.405" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="284.48" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="284.48" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="284.48" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="284.48" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED2P" gate="G$1" x="281.94" y="55.88" smashed="yes" rot="MR270">
 <attribute name="NAME" x="291.592" y="52.324" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="281.432" y="52.705" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="281.94" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="281.94" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="281.94" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="281.94" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED2N" gate="G$1" x="284.48" y="48.26" smashed="yes" rot="MR90">
 <attribute name="NAME" x="291.592" y="49.784" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="281.432" y="50.165" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="284.48" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="284.48" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="284.48" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="284.48" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED0P" gate="G$1" x="281.94" y="40.64" smashed="yes" rot="MR270">
 <attribute name="NAME" x="291.592" y="37.084" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="281.432" y="37.465" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="281.94" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="281.94" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="281.94" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="281.94" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED0N" gate="G$1" x="284.48" y="33.02" smashed="yes" rot="MR90">
 <attribute name="NAME" x="291.592" y="34.544" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="281.432" y="34.925" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="284.48" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="284.48" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="284.48" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="284.48" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V11" gate="G$1" x="292.1" y="63.5" rot="MR90"/>
 <instance part="GND28" gate="1" x="292.1" y="71.12" rot="MR270"/>
@@ -19633,35 +20874,85 @@ Robotarna</text>
 <instance part="GND29" gate="1" x="292.1" y="55.88" rot="MR270"/>
 <instance part="+3V13" gate="G$1" x="292.1" y="33.02" rot="MR90"/>
 <instance part="GND30" gate="1" x="292.1" y="40.64" rot="MR270"/>
-<instance part="LEDS" gate="A" x="241.3" y="53.34"/>
-<instance part="VCCIO" gate="A" x="292.1" y="167.64" rot="MR0"/>
+<instance part="LEDS" gate="A" x="241.3" y="53.34">
+<attribute name="DIGIKEY" x="241.3" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="241.3" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="241.3" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="241.3" y="53.34" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="VCCIO" gate="A" x="292.1" y="167.64" rot="MR0">
+<attribute name="DIGIKEY" x="292.1" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="292.1" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="292.1" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="292.1" y="167.64" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="B2" gate="G$1" x="302.26" y="93.98" smashed="yes" rot="MR0">
 <attribute name="NAME" x="299.72" y="97.79" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="307.34" y="90.17" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="302.26" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="302.26" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="302.26" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="302.26" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="B1" gate="G$1" x="302.26" y="114.3" smashed="yes" rot="MR0">
 <attribute name="NAME" x="299.72" y="118.11" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="307.34" y="110.49" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGIKEY" x="302.26" y="114.3" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="FARNELL" x="302.26" y="114.3" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MOUSER" x="302.26" y="114.3" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="RS" x="302.26" y="114.3" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="JP38" gate="G$1" x="271.78" y="99.06" rot="MR0"/>
+<instance part="JP38" gate="G$1" x="271.78" y="99.06" rot="MR0">
+<attribute name="DIGIKEY" x="271.78" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="271.78" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="271.78" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="271.78" y="99.06" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND31" gate="1" x="309.88" y="78.74" rot="MR0"/>
 <instance part="C6" gate="G$1" x="302.26" y="106.68" smashed="yes" rot="R270">
 <attribute name="NAME" x="291.084" y="101.981" size="1.778" layer="95"/>
 <attribute name="VALUE" x="296.164" y="101.981" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="302.26" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="302.26" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="302.26" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="302.26" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C11" gate="G$1" x="302.26" y="86.36" smashed="yes" rot="R270">
 <attribute name="NAME" x="291.084" y="81.661" size="1.778" layer="95"/>
 <attribute name="VALUE" x="296.164" y="81.661" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="302.26" y="86.36" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="FARNELL" x="302.26" y="86.36" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MOUSER" x="302.26" y="86.36" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="RS" x="302.26" y="86.36" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="R50" gate="G$1" x="281.94" y="86.36" rot="R180"/>
-<instance part="R51" gate="G$1" x="281.94" y="114.3" rot="R180"/>
+<instance part="R50" gate="G$1" x="281.94" y="86.36" rot="R180">
+<attribute name="DIGIKEY" x="281.94" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="281.94" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="281.94" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="281.94" y="86.36" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R51" gate="G$1" x="281.94" y="114.3" rot="R180">
+<attribute name="DIGIKEY" x="281.94" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="281.94" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="281.94" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="281.94" y="114.3" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="+3V14" gate="G$1" x="271.78" y="114.3" rot="MR270"/>
 <instance part="+3V15" gate="G$1" x="271.78" y="86.36" rot="MR270"/>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
-<instance part="R52" gate="G$1" x="30.48" y="165.1" rot="MR90"/>
+<instance part="R52" gate="G$1" x="30.48" y="165.1" rot="MR90">
+<attribute name="DIGIKEY" x="30.48" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="FARNELL" x="30.48" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="30.48" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="RS" x="30.48" y="165.1" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C12" gate="G$1" x="30.48" y="157.48" smashed="yes" rot="MR0">
 <attribute name="NAME" x="28.956" y="157.861" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="27.559" y="155.956" size="1.778" layer="96" rot="MR270"/>
+<attribute name="DIGIKEY" x="30.48" y="157.48" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="FARNELL" x="30.48" y="157.48" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MOUSER" x="30.48" y="157.48" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="RS" x="30.48" y="157.48" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND32" gate="1" x="30.48" y="149.86"/>
 <instance part="+3V16" gate="G$1" x="30.48" y="172.72"/>
