@@ -17655,6 +17655,8 @@ DIN A3, landscape with location and doc. field</description>
 <parts>
 <part name="U1" library="esp32" deviceset="ESP-WROOM-32" device="">
 <attribute name="DIGIKEY" value="1738-1294-ND"/>
+<attribute name="MANUFACTURER" value="Espressif Systems"/>
+<attribute name="MPN" value="ESP32-WROMM-32"/>
 </part>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -17662,7 +17664,9 @@ DIN A3, landscape with location and doc. field</description>
 <part name="U2" library="um185xx" deviceset="UM185XX" device="" value="UM18533">
 <attribute name="DIGIKEY" value="296-17580-1-ND"/>
 <attribute name="FARNELL" value="1135395"/>
+<attribute name="MANUFACTURER" value="Texas Instruments"/>
 <attribute name="MOUSER" value="595-TPS73033DBVR"/>
+<attribute name="MPN" value="TPS73033DBVT"/>
 <attribute name="RS" value="620-1401"/>
 </part>
 <part name="X1" library="usb" deviceset="USB" device="-MICRO-B-BOTTOM">
@@ -17685,9 +17689,9 @@ DIN A3, landscape with location and doc. field</description>
 </part>
 <part name="C1" library="rcl_upravena" deviceset="C-EU" device="C0402" value="100n/16V">
 <attribute name="DIGIKEY" value="732-7478-1-ND"/>
-<attribute name="FARNELL" value="2533923RL"/>
+<attribute name="FARNELL" value="2533923"/>
 <attribute name="MOUSER" value="710-885012105001"/>
-<attribute name="RS" value="839-1622"/>
+<attribute name="RS" value="788-2871"/>
 </part>
 <part name="C3" library="rcl_upravena" deviceset="C-EU" device="C0603" value="4u7/16V">
 <attribute name="DIGIKEY" value="478-1253-1-ND"/>
@@ -17720,31 +17724,31 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="DIGIKEY" value="311-470HRCT-ND"/>
 <attribute name="FARNELL" value="9238441"/>
 <attribute name="MOUSER" value="603-RC0603FR-07470RL"/>
-<attribute name="RS" value="504-7341"/>
+<attribute name="RS" value="566-547"/>
 </part>
 <part name="R2" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="470R">
 <attribute name="DIGIKEY" value="311-470HRCT-ND"/>
 <attribute name="FARNELL" value="9238441"/>
 <attribute name="MOUSER" value="603-RC0603FR-07470RL"/>
-<attribute name="RS" value="504-7341"/>
+<attribute name="RS" value="566-547"/>
 </part>
 <part name="R3" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="470R">
 <attribute name="DIGIKEY" value="311-470HRCT-ND"/>
 <attribute name="FARNELL" value="9238441"/>
 <attribute name="MOUSER" value="603-RC0603FR-07470RL"/>
-<attribute name="RS" value="504-7341"/>
+<attribute name="RS" value="566-547"/>
 </part>
 <part name="R4" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="10k">
 <attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
 <attribute name="FARNELL" value="9238603"/>
 <attribute name="MOUSER" value="603-RC0603FR-0710KL"/>
-<attribute name="RS" value="504-8934"/>
+<attribute name="RS" value="213-2418"/>
 </part>
 <part name="R5" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="10k">
 <attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
 <attribute name="FARNELL" value="9238603"/>
 <attribute name="MOUSER" value="603-RC0603FR-0710KL"/>
-<attribute name="RS" value="504-8934"/>
+<attribute name="RS" value="213-2418"/>
 </part>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
@@ -17767,17 +17771,17 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="R12" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="NC3" library="NC" deviceset="NC" device=""/>
 <part name="LED_3V3" library="led" deviceset="LED" device="CHIPLED_0603" value="green">
-<attribute name="DIGIKEY" value="872-1799"/>
+<attribute name="DIGIKEY" value="160-1446-1-ND"/>
 <attribute name="FARNELL" value="2293494"/>
 <attribute name="MOUSER" value="859-LTST-C191KGKT"/>
 <attribute name="RS" value="872-1799"/>
@@ -17786,81 +17790,81 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="DIGIKEY" value="311-470HRCT-ND"/>
 <attribute name="FARNELL" value="9238441"/>
 <attribute name="MOUSER" value="603-RC0603FR-07470RL"/>
-<attribute name="RS" value="504-7341"/>
+<attribute name="RS" value="566-547"/>
 </part>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="C7" library="rcl_upravena" deviceset="C-EU" device="C0402" value="100n/16V">
 <attribute name="DIGIKEY" value="732-7478-1-ND"/>
-<attribute name="FARNELL" value="2533923RL"/>
+<attribute name="FARNELL" value="2533923"/>
 <attribute name="MOUSER" value="710-885012105001"/>
-<attribute name="RS" value="839-1622"/>
+<attribute name="RS" value="788-2871"/>
 </part>
 <part name="R6" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="R7" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="R8" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="R9" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="R10" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="R13" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="R14" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="R15" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="R16" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="R17" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="R18" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="JP2" library="pinhead" deviceset="PINHD-2X12" device="">
 <attribute name="DIGIKEY" value="WM8148-ND"/>
@@ -17884,67 +17888,67 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="R21" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="R23" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="R24" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="R25" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="R27" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="R28" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="R29" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="R30" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="R31" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="R32" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="JP6" library="pinhead" deviceset="PINHD-2X14" device="">
 <attribute name="DIGIKEY" value="WM8150-ND"/>
@@ -17968,19 +17972,19 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="R33" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="R34" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="180R">
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="U3" library="adafruit" deviceset="ARDUINOR3" device="-BPLACE"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X12" device="">
@@ -17990,7 +17994,6 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="RS" value="821-5689"/>
 </part>
 <part name="JP5" library="pinhead" deviceset="PINHD-1X14" device="">
-<attribute name="DIGIKEY" value="0901200134-ND"/>
 <attribute name="FARNELL" value="2356164"/>
 <attribute name="MOUSER" value="538-90120-0134"/>
 <attribute name="RS" value="670-5060"/>
@@ -18005,7 +18008,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="DIGIKEY" value="311-180HRCT-ND"/>
 <attribute name="FARNELL" value="9238395"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
-<attribute name="RS" value="504-9937"/>
+<attribute name="RS" value="566-412"/>
 </part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
@@ -18030,25 +18033,25 @@ DIN A3, landscape with location and doc. field</description>
 </part>
 <part name="C20" library="rcl_upravena" deviceset="C-EU" device="C0402" value="100n/16V">
 <attribute name="DIGIKEY" value="732-7478-1-ND"/>
-<attribute name="FARNELL" value="2533923RL"/>
+<attribute name="FARNELL" value="2533923"/>
 <attribute name="MOUSER" value="710-885012105001"/>
-<attribute name="RS" value="839-1622"/>
+<attribute name="RS" value="788-2871"/>
 </part>
 <part name="C21" library="rcl_upravena" deviceset="C-EU" device="C0402" value="100n/16V">
 <attribute name="DIGIKEY" value="732-7478-1-ND"/>
-<attribute name="FARNELL" value="2533923RL"/>
+<attribute name="FARNELL" value="2533923"/>
 <attribute name="MOUSER" value="710-885012105001"/>
-<attribute name="RS" value="839-1622"/>
+<attribute name="RS" value="788-2871"/>
 </part>
 <part name="P+17" library="supply1" deviceset="+5V" device=""/>
 <part name="C70" library="rcl_upravena" deviceset="C-EU" device="C0805" value="4u7/16V">
-<attribute name="DIGIKEY" value="1276-2970-2-ND"/>
+<attribute name="DIGIKEY" value="1276-2970-1-ND"/>
 <attribute name="FARNELL" value="2320854"/>
 <attribute name="MOUSER" value="963-EMK212B7475KG-T"/>
 <attribute name="RS" value="766-1037"/>
 </part>
 <part name="C67" library="rcl_upravena" deviceset="C-EU" device="C0805" value="4u7/16V">
-<attribute name="DIGIKEY" value="1276-2970-2-ND"/>
+<attribute name="DIGIKEY" value="1276-2970-1-ND"/>
 <attribute name="FARNELL" value="2320854"/>
 <attribute name="MOUSER" value="963-EMK212B7475KG-T"/>
 <attribute name="RS" value="766-1037"/>
@@ -18086,19 +18089,19 @@ DIN A3, landscape with location and doc. field</description>
 </part>
 <part name="NC28" library="NC" deviceset="NC" device=""/>
 <part name="C8" library="rcl_upravena" deviceset="C-EU" device="C0805" value="4u7/16V">
-<attribute name="DIGIKEY" value="1276-2970-2-ND"/>
+<attribute name="DIGIKEY" value="1276-2970-1-ND"/>
 <attribute name="FARNELL" value="2320854"/>
 <attribute name="MOUSER" value="963-EMK212B7475KG-T"/>
 <attribute name="RS" value="766-1037"/>
 </part>
 <part name="C9" library="rcl_upravena" deviceset="C-EU" device="C0805" value="4u7/16V">
-<attribute name="DIGIKEY" value="1276-2970-2-ND"/>
+<attribute name="DIGIKEY" value="1276-2970-1-ND"/>
 <attribute name="FARNELL" value="2320854"/>
 <attribute name="MOUSER" value="963-EMK212B7475KG-T"/>
 <attribute name="RS" value="766-1037"/>
 </part>
 <part name="C10" library="rcl_upravena" deviceset="C-EU" device="C0805" value="4u7/16V">
-<attribute name="DIGIKEY" value="1276-2970-2-ND"/>
+<attribute name="DIGIKEY" value="1276-2970-1-ND"/>
 <attribute name="FARNELL" value="2320854"/>
 <attribute name="MOUSER" value="963-EMK212B7475KG-T"/>
 <attribute name="RS" value="766-1037"/>
@@ -18110,14 +18113,16 @@ DIN A3, landscape with location and doc. field</description>
 <part name="IC3" library="CP2102N" deviceset="CP2102N-28" device="">
 <attribute name="DIGIKEY" value="336-3694-ND"/>
 <attribute name="FARNELL" value="2577279"/>
+<attribute name="MANUFACTURER" value="Silicon Labs"/>
 <attribute name="MOUSER" value="634-CP2102NA01GQFN28"/>
+<attribute name="MPN" value="CP2102"/>
 <attribute name="RS" value="526-8841"/>
 </part>
 <part name="R35" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="10k">
 <attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
 <attribute name="FARNELL" value="9238603"/>
 <attribute name="MOUSER" value="603-RC0603FR-0710KL"/>
-<attribute name="RS" value="504-8934"/>
+<attribute name="RS" value="213-2418"/>
 </part>
 <part name="C2" library="rcl_upravena" deviceset="C-EU" device="C0603" value="4u7/16V">
 <attribute name="DIGIKEY" value="478-1253-1-ND"/>
@@ -18264,7 +18269,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="DIGIKEY" value="311-470HRCT-ND"/>
 <attribute name="FARNELL" value="9238441"/>
 <attribute name="MOUSER" value="603-RC0603FR-07470RL"/>
-<attribute name="RS" value="504-7341"/>
+<attribute name="RS" value="566-547"/>
 </part>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="VCC5" library="supply1" deviceset="VCCIO" device=""/>
@@ -18272,7 +18277,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="VCC7" library="supply1" deviceset="VCCIO" device=""/>
 <part name="VCC8" library="supply1" deviceset="VCCIO" device=""/>
 <part name="LED_3V3_USB" library="led" deviceset="LED" device="CHIPLED_0603" value="green">
-<attribute name="DIGIKEY" value="872-1799"/>
+<attribute name="DIGIKEY" value="160-1446-1-ND"/>
 <attribute name="FARNELL" value="2293494"/>
 <attribute name="MOUSER" value="859-LTST-C191KGKT"/>
 <attribute name="RS" value="872-1799"/>
@@ -18304,7 +18309,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="DIGIKEY" value="311-100KHRCT-ND"/>
 <attribute name="FARNELL" value="9238727"/>
 <attribute name="MOUSER" value="603-RC0603FR-07100KL"/>
-<attribute name="RS" value="504-8940"/>
+<attribute name="RS" value="566-787"/>
 </part>
 <part name="JP36" library="pinhead" deviceset="PINHD-1X2" device="">
 <attribute name="DIGIKEY" value="3M9457-02-ND"/>
@@ -18317,7 +18322,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="DIGIKEY" value="311-470HRCT-ND"/>
 <attribute name="FARNELL" value="9238441"/>
 <attribute name="MOUSER" value="603-RC0603FR-07470RL"/>
-<attribute name="RS" value="504-7341"/>
+<attribute name="RS" value="566-547"/>
 </part>
 <part name="R39" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="680R">
 <attribute name="DIGIKEY" value="311-680HRCT-ND"/>
@@ -18329,7 +18334,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="DIGIKEY" value="311-470HRCT-ND"/>
 <attribute name="FARNELL" value="9238441"/>
 <attribute name="MOUSER" value="603-RC0603FR-07470RL"/>
-<attribute name="RS" value="504-7341"/>
+<attribute name="RS" value="566-547"/>
 </part>
 <part name="R41" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="680R">
 <attribute name="DIGIKEY" value="311-680HRCT-ND"/>
@@ -18341,7 +18346,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="DIGIKEY" value="311-470HRCT-ND"/>
 <attribute name="FARNELL" value="9238441"/>
 <attribute name="MOUSER" value="603-RC0603FR-07470RL"/>
-<attribute name="RS" value="504-7341"/>
+<attribute name="RS" value="566-547"/>
 </part>
 <part name="R43" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="680R">
 <attribute name="DIGIKEY" value="311-680HRCT-ND"/>
@@ -18350,37 +18355,37 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="RS" value=""/>
 </part>
 <part name="LED5P" library="led" deviceset="LED" device="CHIPLED_0603" value="green">
-<attribute name="DIGIKEY" value="872-1799"/>
+<attribute name="DIGIKEY" value="160-1446-1-ND"/>
 <attribute name="FARNELL" value="2293494"/>
 <attribute name="MOUSER" value="859-LTST-C191KGKT"/>
 <attribute name="RS" value="872-1799"/>
 </part>
 <part name="LED5N" library="led" deviceset="LED" device="CHIPLED_0603" value="red">
-<attribute name="DIGIKEY" value="160-1447-2-ND"/>
+<attribute name="DIGIKEY" value="160-1447-1-ND"/>
 <attribute name="FARNELL" value="2322071"/>
 <attribute name="MOUSER" value="859-LTST-C191KRKT"/>
 <attribute name="RS" value="127-8415"/>
 </part>
 <part name="LED3P" library="led" deviceset="LED" device="CHIPLED_0603" value="green">
-<attribute name="DIGIKEY" value="872-1799"/>
+<attribute name="DIGIKEY" value="160-1446-1-ND"/>
 <attribute name="FARNELL" value="2293494"/>
 <attribute name="MOUSER" value="859-LTST-C191KGKT"/>
 <attribute name="RS" value="872-1799"/>
 </part>
 <part name="LED3N" library="led" deviceset="LED" device="CHIPLED_0603" value="red">
-<attribute name="DIGIKEY" value="160-1447-2-ND"/>
+<attribute name="DIGIKEY" value="160-1447-1-ND"/>
 <attribute name="FARNELL" value="2322071"/>
 <attribute name="MOUSER" value="859-LTST-C191KRKT"/>
 <attribute name="RS" value="127-8415"/>
 </part>
 <part name="LED1P" library="led" deviceset="LED" device="CHIPLED_0603" value="green">
-<attribute name="DIGIKEY" value="872-1799"/>
+<attribute name="DIGIKEY" value="160-1446-1-ND"/>
 <attribute name="FARNELL" value="2293494"/>
 <attribute name="MOUSER" value="859-LTST-C191KGKT"/>
 <attribute name="RS" value="872-1799"/>
 </part>
 <part name="LED1N" library="led" deviceset="LED" device="CHIPLED_0603" value="red">
-<attribute name="DIGIKEY" value="160-1447-2-ND"/>
+<attribute name="DIGIKEY" value="160-1447-1-ND"/>
 <attribute name="FARNELL" value="2322071"/>
 <attribute name="MOUSER" value="859-LTST-C191KRKT"/>
 <attribute name="RS" value="127-8415"/>
@@ -18395,7 +18400,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="DIGIKEY" value="311-470HRCT-ND"/>
 <attribute name="FARNELL" value="9238441"/>
 <attribute name="MOUSER" value="603-RC0603FR-07470RL"/>
-<attribute name="RS" value="504-7341"/>
+<attribute name="RS" value="566-547"/>
 </part>
 <part name="R45" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="680R">
 <attribute name="DIGIKEY" value="311-680HRCT-ND"/>
@@ -18407,7 +18412,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="DIGIKEY" value="311-470HRCT-ND"/>
 <attribute name="FARNELL" value="9238441"/>
 <attribute name="MOUSER" value="603-RC0603FR-07470RL"/>
-<attribute name="RS" value="504-7341"/>
+<attribute name="RS" value="566-547"/>
 </part>
 <part name="R47" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="680R">
 <attribute name="DIGIKEY" value="311-680HRCT-ND"/>
@@ -18419,7 +18424,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="DIGIKEY" value="311-470HRCT-ND"/>
 <attribute name="FARNELL" value="9238441"/>
 <attribute name="MOUSER" value="603-RC0603FR-07470RL"/>
-<attribute name="RS" value="504-7341"/>
+<attribute name="RS" value="566-547"/>
 </part>
 <part name="R49" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="680R">
 <attribute name="DIGIKEY" value="311-680HRCT-ND"/>
@@ -18428,37 +18433,37 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="RS" value=""/>
 </part>
 <part name="LED4P" library="led" deviceset="LED" device="CHIPLED_0603" value="green">
-<attribute name="DIGIKEY" value="872-1799"/>
+<attribute name="DIGIKEY" value="160-1446-1-ND"/>
 <attribute name="FARNELL" value="2293494"/>
 <attribute name="MOUSER" value="859-LTST-C191KGKT"/>
 <attribute name="RS" value="872-1799"/>
 </part>
 <part name="LED4N" library="led" deviceset="LED" device="CHIPLED_0603" value="red">
-<attribute name="DIGIKEY" value="160-1447-2-ND"/>
+<attribute name="DIGIKEY" value="160-1447-1-ND"/>
 <attribute name="FARNELL" value="2322071"/>
 <attribute name="MOUSER" value="859-LTST-C191KRKT"/>
 <attribute name="RS" value="127-8415"/>
 </part>
 <part name="LED2P" library="led" deviceset="LED" device="CHIPLED_0603" value="green">
-<attribute name="DIGIKEY" value="872-1799"/>
+<attribute name="DIGIKEY" value="160-1446-1-ND"/>
 <attribute name="FARNELL" value="2293494"/>
 <attribute name="MOUSER" value="859-LTST-C191KGKT"/>
 <attribute name="RS" value="872-1799"/>
 </part>
 <part name="LED2N" library="led" deviceset="LED" device="CHIPLED_0603" value="red">
-<attribute name="DIGIKEY" value="160-1447-2-ND"/>
+<attribute name="DIGIKEY" value="160-1447-1-ND"/>
 <attribute name="FARNELL" value="2322071"/>
 <attribute name="MOUSER" value="859-LTST-C191KRKT"/>
 <attribute name="RS" value="127-8415"/>
 </part>
 <part name="LED0P" library="led" deviceset="LED" device="CHIPLED_0603" value="green">
-<attribute name="DIGIKEY" value="872-1799"/>
+<attribute name="DIGIKEY" value="160-1446-1-ND"/>
 <attribute name="FARNELL" value="2293494"/>
 <attribute name="MOUSER" value="859-LTST-C191KGKT"/>
 <attribute name="RS" value="872-1799"/>
 </part>
 <part name="LED0N" library="led" deviceset="LED" device="CHIPLED_0603" value="red">
-<attribute name="DIGIKEY" value="160-1447-2-ND"/>
+<attribute name="DIGIKEY" value="160-1447-1-ND"/>
 <attribute name="FARNELL" value="2322071"/>
 <attribute name="MOUSER" value="859-LTST-C191KRKT"/>
 <attribute name="RS" value="127-8415"/>
@@ -18502,27 +18507,27 @@ DIN A3, landscape with location and doc. field</description>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="C6" library="rcl_upravena" deviceset="C-EU" device="C0402" value="100n/16V">
 <attribute name="DIGIKEY" value="732-7478-1-ND"/>
-<attribute name="FARNELL" value="2533923RL"/>
+<attribute name="FARNELL" value="2533923"/>
 <attribute name="MOUSER" value="710-885012105001"/>
-<attribute name="RS" value="839-1622"/>
+<attribute name="RS" value="788-2871"/>
 </part>
 <part name="C11" library="rcl_upravena" deviceset="C-EU" device="C0402" value="100n/16V">
 <attribute name="DIGIKEY" value="732-7478-1-ND"/>
-<attribute name="FARNELL" value="2533923RL"/>
+<attribute name="FARNELL" value="2533923"/>
 <attribute name="MOUSER" value="710-885012105001"/>
-<attribute name="RS" value="839-1622"/>
+<attribute name="RS" value="788-2871"/>
 </part>
 <part name="R50" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="10k">
 <attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
 <attribute name="FARNELL" value="9238603"/>
 <attribute name="MOUSER" value="603-RC0603FR-0710KL"/>
-<attribute name="RS" value="504-8934"/>
+<attribute name="RS" value="213-2418"/>
 </part>
 <part name="R51" library="rcl_upravena" deviceset="R-EU_" device="R0603" value="10k">
 <attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
 <attribute name="FARNELL" value="9238603"/>
 <attribute name="MOUSER" value="603-RC0603FR-0710KL"/>
-<attribute name="RS" value="504-8934"/>
+<attribute name="RS" value="213-2418"/>
 </part>
 <part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
@@ -18531,7 +18536,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
 <attribute name="FARNELL" value="9238603"/>
 <attribute name="MOUSER" value="603-RC0603FR-0710KL"/>
-<attribute name="RS" value="504-8934"/>
+<attribute name="RS" value="213-2418"/>
 </part>
 <part name="C12" library="rcl_upravena" deviceset="C-EU" device="C0603" value="1n/50V">
 <attribute name="DIGIKEY" value="399-1082-1-ND"/>
@@ -19943,6 +19948,8 @@ Robotarna</text>
 <instances>
 <instance part="U1" gate="G$1" x="86.36" y="139.7">
 <attribute name="DIGIKEY" x="86.36" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="86.36" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="86.36" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V1" gate="G$1" x="63.5" y="170.18"/>
 <instance part="GND1" gate="1" x="66.04" y="111.76"/>
@@ -19952,6 +19959,8 @@ Robotarna</text>
 <attribute name="FARNELL" x="327.66" y="236.22" size="1.778" layer="96" display="off"/>
 <attribute name="MOUSER" x="327.66" y="236.22" size="1.778" layer="96" display="off"/>
 <attribute name="RS" x="327.66" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="327.66" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="327.66" y="236.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="X1" gate="G$1" x="25.4" y="210.82" smashed="yes" rot="MR0">
 <attribute name="NAME" x="25.4" y="207.264" size="1.778" layer="95" rot="MR0"/>
@@ -20356,7 +20365,6 @@ Robotarna</text>
 <attribute name="RS" x="182.88" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP5" gate="A" x="182.88" y="109.22">
-<attribute name="DIGIKEY" x="182.88" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="FARNELL" x="182.88" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="MOUSER" x="182.88" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="RS" x="182.88" y="109.22" size="1.778" layer="96" display="off"/>
@@ -20491,6 +20499,8 @@ Robotarna</text>
 <attribute name="FARNELL" x="111.76" y="208.28" size="1.778" layer="96" display="off"/>
 <attribute name="MOUSER" x="111.76" y="208.28" size="1.778" layer="96" display="off"/>
 <attribute name="RS" x="111.76" y="208.28" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="111.76" y="208.28" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="111.76" y="208.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R35" gate="G$1" x="66.04" y="233.68" rot="MR0">
 <attribute name="DIGIKEY" x="66.04" y="233.68" size="1.778" layer="96" rot="MR0" display="off"/>

@@ -8434,9 +8434,9 @@ design rules under a new name.</description>
 <elements>
 <element name="C1" library="rcl_upravena" package="C0402" value="100n/16V" x="42.2275" y="40.9575" rot="R180">
 <attribute name="DIGIKEY" value="732-7478-1-ND" x="42.2275" y="40.9575" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FARNELL" value="2533923RL" x="42.2275" y="40.9575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="FARNELL" value="2533923" x="42.2275" y="40.9575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER" value="710-885012105001" x="42.2275" y="40.9575" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS" value="839-1622" x="42.2275" y="40.9575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS" value="788-2871" x="42.2275" y="40.9575" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C3" library="rcl_upravena" package="C0603" value="4u7/16V" x="44.92625" y="42.2275">
 <attribute name="DIGIKEY" value="478-1253-1-ND" x="44.92625" y="42.2275" size="1.778" layer="27" display="off"/>
@@ -8458,9 +8458,9 @@ design rules under a new name.</description>
 </element>
 <element name="C7" library="rcl_upravena" package="C0402" value="100n/16V" x="44.60875" y="40.9575">
 <attribute name="DIGIKEY" value="732-7478-1-ND" x="44.60875" y="40.9575" size="1.778" layer="27" display="off"/>
-<attribute name="FARNELL" value="2533923RL" x="44.60875" y="40.9575" size="1.778" layer="27" display="off"/>
+<attribute name="FARNELL" value="2533923" x="44.60875" y="40.9575" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER" value="710-885012105001" x="44.60875" y="40.9575" size="1.778" layer="27" display="off"/>
-<attribute name="RS" value="839-1622" x="44.60875" y="40.9575" size="1.778" layer="27" display="off"/>
+<attribute name="RS" value="788-2871" x="44.60875" y="40.9575" size="1.778" layer="27" display="off"/>
 </element>
 <element name="JP2" library="pinhead" package="2X12" value="" x="71.12" y="19.05" rot="R90">
 <attribute name="DIGIKEY" value="WM8148-ND" x="71.12" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
@@ -8493,7 +8493,7 @@ design rules under a new name.</description>
 <attribute name="RS" value="815-4219" x="49.53" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="LED_3V3" library="led" package="CHIPLED_0603" value="green" x="66.51625" y="50.32375">
-<attribute name="DIGIKEY" value="872-1799" x="66.51625" y="50.32375" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY" value="160-1446-1-ND" x="66.51625" y="50.32375" size="1.778" layer="27" display="off"/>
 <attribute name="FARNELL" value="2293494" x="66.51625" y="50.32375" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER" value="859-LTST-C191KGKT" x="66.51625" y="50.32375" size="1.778" layer="27" display="off"/>
 <attribute name="RS" value="872-1799" x="66.51625" y="50.32375" size="1.778" layer="27" display="off"/>
@@ -8502,115 +8502,115 @@ design rules under a new name.</description>
 <attribute name="DIGIKEY" value="311-470HRCT-ND" x="33.02" y="47.3075" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="FARNELL" value="9238441" x="33.02" y="47.3075" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07470RL" x="33.02" y="47.3075" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS" value="504-7341" x="33.02" y="47.3075" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="RS" value="566-547" x="33.02" y="47.3075" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R10" library="rcl_upravena" package="R0603" value="180R" x="62.865" y="17.78" rot="MR0">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="62.865" y="17.78" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="FARNELL" value="9238395" x="62.865" y="17.78" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="62.865" y="17.78" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="RS" value="504-9937" x="62.865" y="17.78" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="RS" value="566-412" x="62.865" y="17.78" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R11" library="rcl_upravena" package="R0603" value="180R" x="26.9875" y="26.67" rot="MR270">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="26.9875" y="26.67" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="FARNELL" value="9238395" x="26.9875" y="26.67" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="26.9875" y="26.67" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="RS" value="504-9937" x="26.9875" y="26.67" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="RS" value="566-412" x="26.9875" y="26.67" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R12" library="rcl_upravena" package="R0603" value="180R" x="28.2575" y="33.02" rot="MR0">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="28.2575" y="33.02" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="FARNELL" value="9238395" x="28.2575" y="33.02" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="28.2575" y="33.02" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="RS" value="504-9937" x="28.2575" y="33.02" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="RS" value="566-412" x="28.2575" y="33.02" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R13" library="rcl_upravena" package="R0603" value="180R" x="62.865" y="20.32" rot="MR0">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="62.865" y="20.32" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="FARNELL" value="9238395" x="62.865" y="20.32" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="62.865" y="20.32" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="RS" value="504-9937" x="62.865" y="20.32" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="RS" value="566-412" x="62.865" y="20.32" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R14" library="rcl_upravena" package="R0603" value="180R" x="62.865" y="22.86" rot="MR0">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="62.865" y="22.86" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="FARNELL" value="9238395" x="62.865" y="22.86" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="62.865" y="22.86" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="RS" value="504-9937" x="62.865" y="22.86" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="RS" value="566-412" x="62.865" y="22.86" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R15" library="rcl_upravena" package="R0603" value="180R" x="62.865" y="25.4" rot="MR0">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="62.865" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="FARNELL" value="9238395" x="62.865" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="62.865" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="RS" value="504-9937" x="62.865" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="RS" value="566-412" x="62.865" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R16" library="rcl_upravena" package="R0603" value="180R" x="62.865" y="27.94" rot="MR0">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="62.865" y="27.94" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="FARNELL" value="9238395" x="62.865" y="27.94" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="62.865" y="27.94" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="RS" value="504-9937" x="62.865" y="27.94" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="RS" value="566-412" x="62.865" y="27.94" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R17" library="rcl_upravena" package="R0603" value="180R" x="62.865" y="30.48" rot="MR0">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="62.865" y="30.48" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="FARNELL" value="9238395" x="62.865" y="30.48" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="62.865" y="30.48" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="RS" value="504-9937" x="62.865" y="30.48" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="RS" value="566-412" x="62.865" y="30.48" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R18" library="rcl_upravena" package="R0603" value="180R" x="62.865" y="33.02" rot="MR0">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="62.865" y="33.02" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="FARNELL" value="9238395" x="62.865" y="33.02" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="62.865" y="33.02" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="RS" value="504-9937" x="62.865" y="33.02" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="RS" value="566-412" x="62.865" y="33.02" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R2" library="rcl_upravena" package="R0603" value="470R" x="34.925" y="47.3075" rot="R270">
 <attribute name="DIGIKEY" value="311-470HRCT-ND" x="34.925" y="47.3075" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="FARNELL" value="9238441" x="34.925" y="47.3075" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07470RL" x="34.925" y="47.3075" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS" value="504-7341" x="34.925" y="47.3075" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="RS" value="566-547" x="34.925" y="47.3075" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R26" library="rcl_upravena" package="R0603" value="470R" x="68.2625" y="50.165" rot="R90">
 <attribute name="DIGIKEY" value="311-470HRCT-ND" x="68.2625" y="50.165" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FARNELL" value="9238441" x="68.2625" y="50.165" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07470RL" x="68.2625" y="50.165" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RS" value="504-7341" x="68.2625" y="50.165" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS" value="566-547" x="68.2625" y="50.165" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R3" library="rcl_upravena" package="R0603" value="470R" x="49.53" y="46.99" rot="R90">
 <attribute name="DIGIKEY" value="311-470HRCT-ND" x="49.53" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FARNELL" value="9238441" x="49.53" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07470RL" x="49.53" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RS" value="504-7341" x="49.53" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS" value="566-547" x="49.53" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R4" library="rcl_upravena" package="R0603" value="10k" x="27.6225" y="35.71875" rot="MR270">
 <attribute name="DIGIKEY" value="311-10KGRCT-ND" x="27.6225" y="35.71875" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="FARNELL" value="9238603" x="27.6225" y="35.71875" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-0710KL" x="27.6225" y="35.71875" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="RS" value="504-8934" x="27.6225" y="35.71875" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="RS" value="213-2418" x="27.6225" y="35.71875" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R5" library="rcl_upravena" package="R0603" value="10k" x="28.73375" y="34.29" rot="R180">
 <attribute name="DIGIKEY" value="311-10KGRCT-ND" x="28.73375" y="34.29" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="FARNELL" value="9238603" x="28.73375" y="34.29" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-0710KL" x="28.73375" y="34.29" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS" value="504-8934" x="28.73375" y="34.29" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS" value="213-2418" x="28.73375" y="34.29" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R6" library="rcl_upravena" package="R0603" value="180R" x="62.865" y="7.62" rot="MR0">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="62.865" y="7.62" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="FARNELL" value="9238395" x="62.865" y="7.62" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="62.865" y="7.62" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="RS" value="504-9937" x="62.865" y="7.62" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="RS" value="566-412" x="62.865" y="7.62" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R7" library="rcl_upravena" package="R0603" value="180R" x="62.865" y="10.16" rot="MR0">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="62.865" y="10.16" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="FARNELL" value="9238395" x="62.865" y="10.16" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="62.865" y="10.16" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="RS" value="504-9937" x="62.865" y="10.16" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="RS" value="566-412" x="62.865" y="10.16" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R8" library="rcl_upravena" package="R0603" value="180R" x="62.865" y="12.7" rot="MR0">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="62.865" y="12.7" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="FARNELL" value="9238395" x="62.865" y="12.7" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="62.865" y="12.7" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="RS" value="504-9937" x="62.865" y="12.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="RS" value="566-412" x="62.865" y="12.7" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R9" library="rcl_upravena" package="R0603" value="180R" x="62.865" y="15.24" rot="MR0">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="62.865" y="15.24" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="FARNELL" value="9238395" x="62.865" y="15.24" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="62.865" y="15.24" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="RS" value="504-9937" x="62.865" y="15.24" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="RS" value="566-412" x="62.865" y="15.24" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="T1" library="transistors" package="SOT23" value="BC337" x="29.05125" y="30.1625" rot="MR180">
 <attribute name="DIGIKEY" value="1727-2919-1-ND" x="29.05125" y="30.1625" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -8626,12 +8626,16 @@ design rules under a new name.</description>
 </element>
 <element name="U1" library="esp32" package="ESP-WROOM-32" value="ESP-WROOM-32" x="41.91" y="14.605" rot="R180">
 <attribute name="DIGIKEY" value="1738-1294-ND" x="41.91" y="14.605" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Espressif Systems" x="41.91" y="14.605" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ESP32-WROMM-32" x="41.91" y="14.605" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U2" library="um185xx" package="SOT23-5" value="UM18533" x="59.3725" y="39.21125" rot="MR180">
 <attribute name="DIGIKEY" value="296-17580-1-ND" x="59.3725" y="39.21125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="FARNELL" value="1135395" x="59.3725" y="39.21125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER" value="595-TPS73033DBVR" x="59.3725" y="39.21125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="RS" value="620-1401" x="59.3725" y="39.21125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="TPS73033DBVT" x="59.3725" y="39.21125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" x="59.3725" y="39.21125" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="X1" library="usb" package="USB-MICRO-B-BOTTOM-MOLEX" value="USB-MICRO-B-BOTTOM" x="41.91" y="52.07" rot="R270">
 <attribute name="DIGIKEY" value="WM17141CT-ND" x="41.91" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
@@ -8649,67 +8653,67 @@ design rules under a new name.</description>
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="22.225" y="5.08" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="FARNELL" value="9238395" x="22.225" y="5.08" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="22.225" y="5.08" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="RS" value="504-9937" x="22.225" y="5.08" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="RS" value="566-412" x="22.225" y="5.08" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R21" library="rcl_upravena" package="R0603" value="180R" x="22.225" y="7.62" rot="MR180">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="22.225" y="7.62" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="FARNELL" value="9238395" x="22.225" y="7.62" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="22.225" y="7.62" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="RS" value="504-9937" x="22.225" y="7.62" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="RS" value="566-412" x="22.225" y="7.62" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R23" library="rcl_upravena" package="R0603" value="180R" x="22.225" y="12.7" rot="MR180">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="22.225" y="12.7" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="FARNELL" value="9238395" x="22.225" y="12.7" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="22.225" y="12.7" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="RS" value="504-9937" x="22.225" y="12.7" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="RS" value="566-412" x="22.225" y="12.7" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R24" library="rcl_upravena" package="R0603" value="180R" x="22.225" y="15.24" rot="MR180">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="22.225" y="15.24" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="FARNELL" value="9238395" x="22.225" y="15.24" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="22.225" y="15.24" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="RS" value="504-9937" x="22.225" y="15.24" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="RS" value="566-412" x="22.225" y="15.24" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R25" library="rcl_upravena" package="R0603" value="180R" x="22.225" y="17.78" rot="MR180">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="22.225" y="17.78" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="FARNELL" value="9238395" x="22.225" y="17.78" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="22.225" y="17.78" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="RS" value="504-9937" x="22.225" y="17.78" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="RS" value="566-412" x="22.225" y="17.78" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R27" library="rcl_upravena" package="R0603" value="180R" x="22.225" y="20.32" rot="MR180">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="22.225" y="20.32" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="FARNELL" value="9238395" x="22.225" y="20.32" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="22.225" y="20.32" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="RS" value="504-9937" x="22.225" y="20.32" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="RS" value="566-412" x="22.225" y="20.32" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R28" library="rcl_upravena" package="R0603" value="180R" x="22.225" y="22.86" rot="MR180">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="22.225" y="22.86" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="FARNELL" value="9238395" x="22.225" y="22.86" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="22.225" y="22.86" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="RS" value="504-9937" x="22.225" y="22.86" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="RS" value="566-412" x="22.225" y="22.86" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R29" library="rcl_upravena" package="R0603" value="180R" x="22.225" y="25.4" rot="MR180">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="22.225" y="25.4" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="FARNELL" value="9238395" x="22.225" y="25.4" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="22.225" y="25.4" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="RS" value="504-9937" x="22.225" y="25.4" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="RS" value="566-412" x="22.225" y="25.4" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R30" library="rcl_upravena" package="R0603" value="180R" x="22.225" y="27.94" rot="MR180">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="22.225" y="27.94" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="FARNELL" value="9238395" x="22.225" y="27.94" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="22.225" y="27.94" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="RS" value="504-9937" x="22.225" y="27.94" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="RS" value="566-412" x="22.225" y="27.94" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R31" library="rcl_upravena" package="R0603" value="180R" x="22.225" y="30.48" rot="MR180">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="22.225" y="30.48" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="FARNELL" value="9238395" x="22.225" y="30.48" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="22.225" y="30.48" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="RS" value="504-9937" x="22.225" y="30.48" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="RS" value="566-412" x="22.225" y="30.48" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R32" library="rcl_upravena" package="R0603" value="180R" x="22.225" y="33.02" rot="MR180">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="22.225" y="33.02" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="FARNELL" value="9238395" x="22.225" y="33.02" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="22.225" y="33.02" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="RS" value="504-9937" x="22.225" y="33.02" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="RS" value="566-412" x="22.225" y="33.02" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="JP6" library="pinhead" package="2X14" value="" x="12.7" y="19.05" rot="R90">
 <attribute name="DIGIKEY" value="WM8150-ND" x="12.7" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
@@ -8733,19 +8737,19 @@ design rules under a new name.</description>
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="22.225" y="2.54" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="FARNELL" value="9238395" x="22.225" y="2.54" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="22.225" y="2.54" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="RS" value="504-9937" x="22.225" y="2.54" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="RS" value="566-412" x="22.225" y="2.54" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R33" library="rcl_upravena" package="R0603" value="180R" x="22.225" y="10.16" rot="MR180">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="22.225" y="10.16" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="FARNELL" value="9238395" x="22.225" y="10.16" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="22.225" y="10.16" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="RS" value="504-9937" x="22.225" y="10.16" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="RS" value="566-412" x="22.225" y="10.16" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R34" library="rcl_upravena" package="R0603" value="180R" x="22.225" y="35.56" rot="MR180">
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="22.225" y="35.56" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="FARNELL" value="9238395" x="22.225" y="35.56" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="22.225" y="35.56" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="RS" value="504-9937" x="22.225" y="35.56" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="RS" value="566-412" x="22.225" y="35.56" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="U3" library="adafruit" package="ARDUINOR3-BPLACE" value="ARDUINOR3-BPLACE" x="68.58" y="-16.51" rot="R90"/>
 <element name="JP1" library="pinhead" package="1X12" value="" x="58.42" y="19.05" rot="R90">
@@ -8755,7 +8759,6 @@ design rules under a new name.</description>
 <attribute name="RS" value="821-5689" x="58.42" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="JP5" library="pinhead" package="1X14" value="" x="25.4" y="19.05" rot="R90">
-<attribute name="DIGIKEY" value="0901200134-ND" x="25.4" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FARNELL" value="2356164" x="25.4" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER" value="538-90120-0134" x="25.4" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS" value="670-5060" x="25.4" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
@@ -8770,7 +8773,7 @@ design rules under a new name.</description>
 <attribute name="DIGIKEY" value="311-180HRCT-ND" x="62.865" y="5.08" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="FARNELL" value="9238395" x="62.865" y="5.08" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07180RL" x="62.865" y="5.08" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="RS" value="504-9937" x="62.865" y="5.08" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="RS" value="566-412" x="62.865" y="5.08" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="PWR" library="con-phoenix-508" package="MKDSN1,5/2-5,08" value="MKDSN1,5/2-5,08" x="80.01" y="40.64" rot="R90">
 <attribute name="DIGIKEY" value="277-5953-ND" x="80.01" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
@@ -8787,24 +8790,24 @@ design rules under a new name.</description>
 </element>
 <element name="C20" library="rcl_upravena" package="C0402" value="100n/16V" x="73.9775" y="41.91" rot="MR270">
 <attribute name="DIGIKEY" value="732-7478-1-ND" x="73.9775" y="41.91" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="FARNELL" value="2533923RL" x="73.9775" y="41.91" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="FARNELL" value="2533923" x="73.9775" y="41.91" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOUSER" value="710-885012105001" x="73.9775" y="41.91" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="RS" value="839-1622" x="73.9775" y="41.91" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="RS" value="788-2871" x="73.9775" y="41.91" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C21" library="rcl_upravena" package="C0402" value="100n/16V" x="73.9775" y="39.37" rot="MR90">
 <attribute name="DIGIKEY" value="732-7478-1-ND" x="73.9775" y="39.37" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="FARNELL" value="2533923RL" x="73.9775" y="39.37" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="FARNELL" value="2533923" x="73.9775" y="39.37" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOUSER" value="710-885012105001" x="73.9775" y="39.37" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="RS" value="839-1622" x="73.9775" y="39.37" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="RS" value="788-2871" x="73.9775" y="39.37" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C70" library="rcl_upravena" package="C0805" value="4u7/16V" x="2.54" y="44.45" rot="MR90">
-<attribute name="DIGIKEY" value="1276-2970-2-ND" x="2.54" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DIGIKEY" value="1276-2970-1-ND" x="2.54" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="FARNELL" value="2320854" x="2.54" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOUSER" value="963-EMK212B7475KG-T" x="2.54" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="RS" value="766-1037" x="2.54" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C67" library="rcl_upravena" package="C0805" value="4u7/16V" x="12.7" y="44.45" rot="MR90">
-<attribute name="DIGIKEY" value="1276-2970-2-ND" x="12.7" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DIGIKEY" value="1276-2970-1-ND" x="12.7" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="FARNELL" value="2320854" x="12.7" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOUSER" value="963-EMK212B7475KG-T" x="12.7" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="RS" value="766-1037" x="12.7" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -8835,19 +8838,19 @@ design rules under a new name.</description>
 <attribute name="RS" value="681-2953" x="7.62" y="44.45" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C8" library="rcl_upravena" package="C0805" value="4u7/16V" x="10.16" y="44.45" rot="MR90">
-<attribute name="DIGIKEY" value="1276-2970-2-ND" x="10.16" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DIGIKEY" value="1276-2970-1-ND" x="10.16" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="FARNELL" value="2320854" x="10.16" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOUSER" value="963-EMK212B7475KG-T" x="10.16" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="RS" value="766-1037" x="10.16" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C9" library="rcl_upravena" package="C0805" value="4u7/16V" x="7.62" y="44.45" rot="MR90">
-<attribute name="DIGIKEY" value="1276-2970-2-ND" x="7.62" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DIGIKEY" value="1276-2970-1-ND" x="7.62" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="FARNELL" value="2320854" x="7.62" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOUSER" value="963-EMK212B7475KG-T" x="7.62" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="RS" value="766-1037" x="7.62" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C10" library="rcl_upravena" package="C0805" value="4u7/16V" x="5.08" y="44.45" rot="MR90">
-<attribute name="DIGIKEY" value="1276-2970-2-ND" x="5.08" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DIGIKEY" value="1276-2970-1-ND" x="5.08" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="FARNELL" value="2320854" x="5.08" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOUSER" value="963-EMK212B7475KG-T" x="5.08" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="RS" value="766-1037" x="5.08" y="44.45" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -8857,12 +8860,14 @@ design rules under a new name.</description>
 <attribute name="FARNELL" value="2577279" x="41.91" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOUSER" value="634-CP2102NA01GQFN28" x="41.91" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="RS" value="526-8841" x="41.91" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="Silicon Labs" x="41.91" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="CP2102" x="41.91" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R35" library="rcl_upravena" package="R0603" value="10k" x="46.355" y="39.84625" rot="MR90">
 <attribute name="DIGIKEY" value="311-10KGRCT-ND" x="46.355" y="39.84625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="FARNELL" value="9238603" x="46.355" y="39.84625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-0710KL" x="46.355" y="39.84625" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="RS" value="504-8934" x="46.355" y="39.84625" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="RS" value="213-2418" x="46.355" y="39.84625" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C2" library="rcl_upravena" package="C0603" value="4u7/16V" x="41.91" y="42.2275" rot="R180">
 <attribute name="DIGIKEY" value="478-1253-1-ND" x="41.91" y="42.2275" size="1.778" layer="27" rot="R180" display="off"/>
@@ -9001,10 +9006,10 @@ design rules under a new name.</description>
 <attribute name="DIGIKEY" value="311-470HRCT-ND" x="54.61" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="FARNELL" value="9238441" x="54.61" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07470RL" x="54.61" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS" value="504-7341" x="54.61" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS" value="566-547" x="54.61" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="LED_3V3_USB" library="led" package="CHIPLED_0603" value="green" x="52.07" y="50.32375" rot="R180">
-<attribute name="DIGIKEY" value="872-1799" x="52.07" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="160-1446-1-ND" x="52.07" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="FARNELL" value="2293494" x="52.07" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER" value="859-LTST-C191KGKT" x="52.07" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS" value="872-1799" x="52.07" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
@@ -9031,7 +9036,7 @@ design rules under a new name.</description>
 <attribute name="DIGIKEY" value="311-100KHRCT-ND" x="58.89625" y="43.815" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="FARNELL" value="9238727" x="58.89625" y="43.815" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07100KL" x="58.89625" y="43.815" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="RS" value="504-8940" x="58.89625" y="43.815" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="RS" value="566-787" x="58.89625" y="43.815" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="JP36" library="pinhead" package="1X02" value="" x="62.23" y="39.37" rot="R90">
 <attribute name="DIGIKEY" value="3M9457-02-ND" x="62.23" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
@@ -9043,7 +9048,7 @@ design rules under a new name.</description>
 <attribute name="DIGIKEY" value="311-470HRCT-ND" x="7.62" y="48.895" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FARNELL" value="9238441" x="7.62" y="48.895" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07470RL" x="7.62" y="48.895" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RS" value="504-7341" x="7.62" y="48.895" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS" value="566-547" x="7.62" y="48.895" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R39" library="rcl_upravena" package="R0603" value="680R" x="6.35" y="48.895" rot="R90">
 <attribute name="DIGIKEY" value="311-680HRCT-ND" x="6.35" y="48.895" size="1.778" layer="27" rot="R90" display="off"/>
@@ -9055,7 +9060,7 @@ design rules under a new name.</description>
 <attribute name="DIGIKEY" value="311-470HRCT-ND" x="20.79625" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FARNELL" value="9238441" x="20.79625" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07470RL" x="20.79625" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RS" value="504-7341" x="20.79625" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS" value="566-547" x="20.79625" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R41" library="rcl_upravena" package="R0603" value="680R" x="22.06625" y="45.72" rot="R90">
 <attribute name="DIGIKEY" value="311-680HRCT-ND" x="22.06625" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
@@ -9067,7 +9072,7 @@ design rules under a new name.</description>
 <attribute name="DIGIKEY" value="311-470HRCT-ND" x="26.19375" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FARNELL" value="9238441" x="26.19375" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07470RL" x="26.19375" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RS" value="504-7341" x="26.19375" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS" value="566-547" x="26.19375" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R43" library="rcl_upravena" package="R0603" value="680R" x="27.46375" y="45.72" rot="R90">
 <attribute name="DIGIKEY" value="311-680HRCT-ND" x="27.46375" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
@@ -9076,37 +9081,37 @@ design rules under a new name.</description>
 <attribute name="RS" value="" x="27.46375" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="LED5P" library="led" package="CHIPLED_0603" value="green" x="10.16" y="50.32375">
-<attribute name="DIGIKEY" value="872-1799" x="10.16" y="50.32375" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY" value="160-1446-1-ND" x="10.16" y="50.32375" size="1.778" layer="27" display="off"/>
 <attribute name="FARNELL" value="2293494" x="10.16" y="50.32375" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER" value="859-LTST-C191KGKT" x="10.16" y="50.32375" size="1.778" layer="27" display="off"/>
 <attribute name="RS" value="872-1799" x="10.16" y="50.32375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LED5N" library="led" package="CHIPLED_0603" value="red" x="11.43" y="50.32375" rot="R180">
-<attribute name="DIGIKEY" value="160-1447-2-ND" x="11.43" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="160-1447-1-ND" x="11.43" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="FARNELL" value="2322071" x="11.43" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER" value="859-LTST-C191KRKT" x="11.43" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS" value="127-8415" x="11.43" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="LED3P" library="led" package="CHIPLED_0603" value="green" x="17.78" y="50.32375">
-<attribute name="DIGIKEY" value="872-1799" x="17.78" y="50.32375" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY" value="160-1446-1-ND" x="17.78" y="50.32375" size="1.778" layer="27" display="off"/>
 <attribute name="FARNELL" value="2293494" x="17.78" y="50.32375" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER" value="859-LTST-C191KGKT" x="17.78" y="50.32375" size="1.778" layer="27" display="off"/>
 <attribute name="RS" value="872-1799" x="17.78" y="50.32375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LED3N" library="led" package="CHIPLED_0603" value="red" x="19.05" y="50.32375" rot="R180">
-<attribute name="DIGIKEY" value="160-1447-2-ND" x="19.05" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="160-1447-1-ND" x="19.05" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="FARNELL" value="2322071" x="19.05" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER" value="859-LTST-C191KRKT" x="19.05" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS" value="127-8415" x="19.05" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="LED1P" library="led" package="CHIPLED_0603" value="green" x="25.4" y="50.32375">
-<attribute name="DIGIKEY" value="872-1799" x="25.4" y="50.32375" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY" value="160-1446-1-ND" x="25.4" y="50.32375" size="1.778" layer="27" display="off"/>
 <attribute name="FARNELL" value="2293494" x="25.4" y="50.32375" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER" value="859-LTST-C191KGKT" x="25.4" y="50.32375" size="1.778" layer="27" display="off"/>
 <attribute name="RS" value="872-1799" x="25.4" y="50.32375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LED1N" library="led" package="CHIPLED_0603" value="red" x="26.67" y="50.32375" rot="R180">
-<attribute name="DIGIKEY" value="160-1447-2-ND" x="26.67" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="160-1447-1-ND" x="26.67" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="FARNELL" value="2322071" x="26.67" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER" value="859-LTST-C191KRKT" x="26.67" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS" value="127-8415" x="26.67" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
@@ -9115,7 +9120,7 @@ design rules under a new name.</description>
 <attribute name="DIGIKEY" value="311-470HRCT-ND" x="9.8425" y="47.78375" size="1.778" layer="27" display="off"/>
 <attribute name="FARNELL" value="9238441" x="9.8425" y="47.78375" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07470RL" x="9.8425" y="47.78375" size="1.778" layer="27" display="off"/>
-<attribute name="RS" value="504-7341" x="9.8425" y="47.78375" size="1.778" layer="27" display="off"/>
+<attribute name="RS" value="566-547" x="9.8425" y="47.78375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R45" library="rcl_upravena" package="R0603" value="680R" x="13.49375" y="47.78375">
 <attribute name="DIGIKEY" value="311-680HRCT-ND" x="13.49375" y="47.78375" size="1.778" layer="27" display="off"/>
@@ -9127,7 +9132,7 @@ design rules under a new name.</description>
 <attribute name="DIGIKEY" value="311-470HRCT-ND" x="23.495" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FARNELL" value="9238441" x="23.495" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07470RL" x="23.495" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RS" value="504-7341" x="23.495" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS" value="566-547" x="23.495" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R47" library="rcl_upravena" package="R0603" value="680R" x="24.765" y="45.72" rot="R90">
 <attribute name="DIGIKEY" value="311-680HRCT-ND" x="24.765" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
@@ -9139,7 +9144,7 @@ design rules under a new name.</description>
 <attribute name="DIGIKEY" value="311-470HRCT-ND" x="28.8925" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FARNELL" value="9238441" x="28.8925" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-07470RL" x="28.8925" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RS" value="504-7341" x="28.8925" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS" value="566-547" x="28.8925" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R49" library="rcl_upravena" package="R0603" value="680R" x="30.1625" y="45.72" rot="R90">
 <attribute name="DIGIKEY" value="311-680HRCT-ND" x="30.1625" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
@@ -9148,37 +9153,37 @@ design rules under a new name.</description>
 <attribute name="RS" value="" x="30.1625" y="45.72" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="LED4P" library="led" package="CHIPLED_0603" value="green" x="13.97" y="50.32375">
-<attribute name="DIGIKEY" value="872-1799" x="13.97" y="50.32375" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY" value="160-1446-1-ND" x="13.97" y="50.32375" size="1.778" layer="27" display="off"/>
 <attribute name="FARNELL" value="2293494" x="13.97" y="50.32375" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER" value="859-LTST-C191KGKT" x="13.97" y="50.32375" size="1.778" layer="27" display="off"/>
 <attribute name="RS" value="872-1799" x="13.97" y="50.32375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LED4N" library="led" package="CHIPLED_0603" value="red" x="15.24" y="50.32375" rot="R180">
-<attribute name="DIGIKEY" value="160-1447-2-ND" x="15.24" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="160-1447-1-ND" x="15.24" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="FARNELL" value="2322071" x="15.24" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER" value="859-LTST-C191KRKT" x="15.24" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS" value="127-8415" x="15.24" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="LED2P" library="led" package="CHIPLED_0603" value="green" x="21.59" y="50.32375">
-<attribute name="DIGIKEY" value="872-1799" x="21.59" y="50.32375" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY" value="160-1446-1-ND" x="21.59" y="50.32375" size="1.778" layer="27" display="off"/>
 <attribute name="FARNELL" value="2293494" x="21.59" y="50.32375" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER" value="859-LTST-C191KGKT" x="21.59" y="50.32375" size="1.778" layer="27" display="off"/>
 <attribute name="RS" value="872-1799" x="21.59" y="50.32375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LED2N" library="led" package="CHIPLED_0603" value="red" x="22.86" y="50.32375" rot="R180">
-<attribute name="DIGIKEY" value="160-1447-2-ND" x="22.86" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="160-1447-1-ND" x="22.86" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="FARNELL" value="2322071" x="22.86" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER" value="859-LTST-C191KRKT" x="22.86" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS" value="127-8415" x="22.86" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="LED0P" library="led" package="CHIPLED_0603" value="green" x="29.21" y="50.32375">
-<attribute name="DIGIKEY" value="872-1799" x="29.21" y="50.32375" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY" value="160-1446-1-ND" x="29.21" y="50.32375" size="1.778" layer="27" display="off"/>
 <attribute name="FARNELL" value="2293494" x="29.21" y="50.32375" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER" value="859-LTST-C191KGKT" x="29.21" y="50.32375" size="1.778" layer="27" display="off"/>
 <attribute name="RS" value="872-1799" x="29.21" y="50.32375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LED0N" library="led" package="CHIPLED_0603" value="red" x="30.48" y="50.32375" rot="R180">
-<attribute name="DIGIKEY" value="160-1447-2-ND" x="30.48" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="160-1447-1-ND" x="30.48" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="FARNELL" value="2322071" x="30.48" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER" value="859-LTST-C191KRKT" x="30.48" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS" value="127-8415" x="30.48" y="50.32375" size="1.778" layer="27" rot="R180" display="off"/>
@@ -9215,33 +9220,33 @@ design rules under a new name.</description>
 </element>
 <element name="C6" library="rcl_upravena" package="C0402" value="100n/16V" x="79.375" y="1.74625" rot="MR0">
 <attribute name="DIGIKEY" value="732-7478-1-ND" x="79.375" y="1.74625" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="FARNELL" value="2533923RL" x="79.375" y="1.74625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="FARNELL" value="2533923" x="79.375" y="1.74625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER" value="710-885012105001" x="79.375" y="1.74625" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="RS" value="839-1622" x="79.375" y="1.74625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="RS" value="788-2871" x="79.375" y="1.74625" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C11" library="rcl_upravena" package="C0402" value="100n/16V" x="59.055" y="1.74625" rot="MR180">
 <attribute name="DIGIKEY" value="732-7478-1-ND" x="59.055" y="1.74625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="FARNELL" value="2533923RL" x="59.055" y="1.74625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="FARNELL" value="2533923" x="59.055" y="1.74625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOUSER" value="710-885012105001" x="59.055" y="1.74625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="RS" value="839-1622" x="59.055" y="1.74625" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="RS" value="788-2871" x="59.055" y="1.74625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R50" library="rcl_upravena" package="R0603" value="10k" x="66.04" y="7.62" rot="R90">
 <attribute name="DIGIKEY" value="311-10KGRCT-ND" x="66.04" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FARNELL" value="9238603" x="66.04" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-0710KL" x="66.04" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RS" value="504-8934" x="66.04" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS" value="213-2418" x="66.04" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R51" library="rcl_upravena" package="R0603" value="10k" x="67.31" y="7.62" rot="R90">
 <attribute name="DIGIKEY" value="311-10KGRCT-ND" x="67.31" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FARNELL" value="9238603" x="67.31" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-0710KL" x="67.31" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RS" value="504-8934" x="67.31" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS" value="213-2418" x="67.31" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R52" library="rcl_upravena" package="R0603" value="10k" x="53.6525" y="9.8475" rot="R270">
 <attribute name="DIGIKEY" value="311-10KGRCT-ND" x="53.6525" y="9.8475" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="FARNELL" value="9238603" x="53.6525" y="9.8475" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER" value="603-RC0603FR-0710KL" x="53.6525" y="9.8475" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS" value="504-8934" x="53.6525" y="9.8475" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="RS" value="213-2418" x="53.6525" y="9.8475" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C12" library="rcl_upravena" package="C0603" value="1n/50V" x="52.72" y="12.6175" rot="MR90">
 <attribute name="DIGIKEY" value="399-1082-1-ND" x="52.72" y="12.6175" size="1.778" layer="28" rot="MR90" display="off"/>
