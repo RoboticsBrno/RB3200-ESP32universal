@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -32,10 +32,10 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -56,10 +56,10 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="55" name="tPotisk" color="7" fill="1" visible="no" active="no"/>
@@ -80,7 +80,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="102" name="bSilk" color="17" fill="1" visible="no" active="yes"/>
 <layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
 <layer number="105" name="Beschreib" color="9" fill="1" visible="no" active="no"/>
@@ -189,7 +189,7 @@
 <text x="33.655" y="27.94" size="1.2" layer="21" font="vector" ratio="20" rot="R270">-</text>
 <text x="31.115" y="27.94" size="1.2" layer="21" font="vector" ratio="20" rot="R270">+</text>
 <text x="30.95625" y="13.6525" size="1.4224" layer="21" font="vector" ratio="20" rot="R90">ROBOTARNA</text>
-<text x="34.925" y="1.27" size="1.27" layer="21" font="vector" ratio="16" rot="R90">RB RobotikaBrno.cz</text>
+<text x="56.515" y="4.1225" size="1.4224" layer="21" font="vector" ratio="20" rot="R90">RB RobotikaBrno.cz</text>
 <text x="42.2275" y="23.495" size="1.27" layer="16" font="vector" ratio="16" rot="MR180" align="center">github:roboticsbrno/
 RB3200-ESP32universal
 CC BY-SA 4.0
@@ -5796,6 +5796,10 @@ G
 <text x="68.2776" y="12.603" size="1" layer="21" font="vector" ratio="20" rot="R90">IOr</text>
 <text x="68.2776" y="10.3755" size="1" layer="21" font="vector" ratio="20" rot="R90">NC</text>
 <text x="83.13" y="38.27375" size="1.778" layer="102" font="vector" ratio="20" rot="R90">+ -</text>
+<text x="71.7365" y="0.3125" size="1" layer="21" font="vector" ratio="20">BTN0</text>
+<text x="51.534" y="0.3125" size="1" layer="21" font="vector" ratio="20">BTN1</text>
+<text x="67.5515" y="2.1675" size="1" layer="21" font="vector" ratio="20">1</text>
+<text x="73.9015" y="2.1675" size="1" layer="21" font="vector" ratio="20">0</text>
 </plain>
 <libraries>
 <library name="rcl_upravena">
@@ -8632,10 +8636,10 @@ design rules under a new name.</description>
 <element name="U2" library="um185xx" package="SOT23-5" value="UM18533" x="59.3725" y="39.21125" rot="MR180">
 <attribute name="DIGIKEY" value="296-17580-1-ND" x="59.3725" y="39.21125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="FARNELL" value="1135395" x="59.3725" y="39.21125" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOUSER" value="595-TPS73033DBVR" x="59.3725" y="39.21125" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="RS" value="620-1401" x="59.3725" y="39.21125" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="TPS73033DBVT" x="59.3725" y="39.21125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="59.3725" y="39.21125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER" value="595-TPS73033DBVR" x="59.3725" y="39.21125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="TPS73033DBVT" x="59.3725" y="39.21125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="RS" value="620-1401" x="59.3725" y="39.21125" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="X1" library="usb" package="USB-MICRO-B-BOTTOM-MOLEX" value="USB-MICRO-B-BOTTOM" x="41.91" y="52.07" rot="R270">
 <attribute name="DIGIKEY" value="WM17141CT-ND" x="41.91" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
@@ -8858,10 +8862,10 @@ design rules under a new name.</description>
 <element name="IC3" library="CP2102N" package="QFN28-PAD" value="CP2102N-28" x="41.91" y="36.195" rot="MR270">
 <attribute name="DIGIKEY" value="336-3694-ND" x="41.91" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="FARNELL" value="2577279" x="41.91" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER" value="634-CP2102NA01GQFN28" x="41.91" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="RS" value="526-8841" x="41.91" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" value="Silicon Labs" x="41.91" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER" value="634-CP2102NA01GQFN28" x="41.91" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="CP2102" x="41.91" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="RS" value="526-8841" x="41.91" y="36.195" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R35" library="rcl_upravena" package="R0603" value="10k" x="46.355" y="39.84625" rot="MR90">
 <attribute name="DIGIKEY" value="311-10KGRCT-ND" x="46.355" y="39.84625" size="1.778" layer="28" rot="MR90" display="off"/>
