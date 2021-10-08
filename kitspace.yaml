@@ -1,0 +1,4 @@
+bom: gerbers/bom.tsv
+eda:
+  type: eagle
+  pcb: hardware/RB3200-ESP32universal.brd
